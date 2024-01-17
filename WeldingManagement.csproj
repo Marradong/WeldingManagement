@@ -57,6 +57,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fbDatasheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="fbDatasheet.Designer.cs">
+      <DependentUpon>fbDatasheet.cs</DependentUpon>
+    </Compile>
     <Compile Include="FlipBoard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -94,6 +100,9 @@
     <PackageReference Include="Wisej-2" Version="2.5.*" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="fbDatasheet.resx">
+      <DependentUpon>fbDatasheet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FlipBoard.resx">
       <DependentUpon>FlipBoard.cs</DependentUpon>
     </EmbeddedResource>
