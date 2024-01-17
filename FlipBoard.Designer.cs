@@ -37,7 +37,7 @@ namespace LinkedList
             this.button7 = new Wisej.Web.Button();
             this.button1 = new Wisej.Web.Button();
             this.btnWelderQualification = new Wisej.Web.Button();
-            this.button3 = new Wisej.Web.Button();
+            this.btnCompleteVisual = new Wisej.Web.Button();
             this.button4 = new Wisej.Web.Button();
             this.button5 = new Wisej.Web.Button();
             this.button6 = new Wisej.Web.Button();
@@ -45,117 +45,13 @@ namespace LinkedList
             this.tableLayoutPanel2 = new Wisej.Web.TableLayoutPanel();
             this.lblHomeNote = new Wisej.Web.Label();
             this.lblHomeTitle = new Wisej.Web.Label();
-            this.tabPopup = new Wisej.Web.TabPage();
-            this.tableLayoutPanel10 = new Wisej.Web.TableLayoutPanel();
-            this.tableLayoutPanel11 = new Wisej.Web.TableLayoutPanel();
-            this.lblPopup = new Wisej.Web.Label();
-            this.tableLayoutPanel12 = new Wisej.Web.TableLayoutPanel();
-            this.btnNo = new Wisej.Web.Button();
-            this.btnYes = new Wisej.Web.Button();
             this.tabDatasheetInfo = new Wisej.Web.TabPage();
-            this.tabInspection = new Wisej.Web.TabPage();
-            this.tableLayoutPanel5 = new Wisej.Web.TableLayoutPanel();
-            this.tableLayoutPanel6 = new Wisej.Web.TableLayoutPanel();
-            this.tableLayoutPanel8 = new Wisej.Web.TableLayoutPanel();
-            this.button2 = new Wisej.Web.Button();
-            this.button8 = new Wisej.Web.Button();
-            this.tableLayoutPanel9 = new Wisej.Web.TableLayoutPanel();
-            this.label15 = new Wisej.Web.Label();
-            this.label16 = new Wisej.Web.Label();
-            this.tableLayoutPanel7 = new Wisej.Web.TableLayoutPanel();
-            this.tableLayoutPanel13 = new Wisej.Web.TableLayoutPanel();
-            this.label17 = new Wisej.Web.Label();
-            this.label7 = new Wisej.Web.Label();
-            this.textBox32 = new Wisej.Web.TextBox();
-            this.textBox31 = new Wisej.Web.TextBox();
-            this.textBox30 = new Wisej.Web.TextBox();
-            this.textBox29 = new Wisej.Web.TextBox();
-            this.textBox14 = new Wisej.Web.TextBox();
-            this.textBox13 = new Wisej.Web.TextBox();
-            this.textBox5 = new Wisej.Web.TextBox();
-            this.textBox4 = new Wisej.Web.TextBox();
-            this.textBox3 = new Wisej.Web.TextBox();
-            this.textBox2 = new Wisej.Web.TextBox();
-            this.textBox1 = new Wisej.Web.TextBox();
-            this.label31 = new Wisej.Web.Label();
-            this.label14 = new Wisej.Web.Label();
-            this.label3 = new Wisej.Web.Label();
-            this.label1 = new Wisej.Web.Label();
-            this.textBox6 = new Wisej.Web.TextBox();
-            this.label9 = new Wisej.Web.Label();
-            this.label10 = new Wisej.Web.Label();
-            this.label2 = new Wisej.Web.Label();
-            this.label13 = new Wisej.Web.Label();
-            this.label35 = new Wisej.Web.Label();
-            this.label4 = new Wisej.Web.Label();
-            this.label5 = new Wisej.Web.Label();
-            this.label6 = new Wisej.Web.Label();
-            this.label18 = new Wisej.Web.Label();
-            this.label8 = new Wisej.Web.Label();
-            this.label19 = new Wisej.Web.Label();
-            this.label11 = new Wisej.Web.Label();
-            this.label20 = new Wisej.Web.Label();
-            this.label12 = new Wisej.Web.Label();
-            this.label21 = new Wisej.Web.Label();
-            this.label23 = new Wisej.Web.Label();
-            this.label22 = new Wisej.Web.Label();
-            this.tableLayoutPanel14 = new Wisej.Web.TableLayoutPanel();
-            this.label24 = new Wisej.Web.Label();
-            this.label25 = new Wisej.Web.Label();
-            this.label26 = new Wisej.Web.Label();
-            this.label27 = new Wisej.Web.Label();
-            this.label28 = new Wisej.Web.Label();
-            this.label29 = new Wisej.Web.Label();
-            this.label30 = new Wisej.Web.Label();
-            this.label32 = new Wisej.Web.Label();
-            this.label33 = new Wisej.Web.Label();
-            this.label34 = new Wisej.Web.Label();
-            this.label36 = new Wisej.Web.Label();
-            this.button9 = new Wisej.Web.Button();
-            this.button10 = new Wisej.Web.Button();
-            this.button11 = new Wisej.Web.Button();
-            this.button12 = new Wisej.Web.Button();
-            this.button13 = new Wisej.Web.Button();
-            this.button14 = new Wisej.Web.Button();
-            this.button15 = new Wisej.Web.Button();
-            this.button16 = new Wisej.Web.Button();
-            this.button17 = new Wisej.Web.Button();
-            this.button18 = new Wisej.Web.Button();
-            this.button19 = new Wisej.Web.Button();
-            this.button20 = new Wisej.Web.Button();
-            this.button21 = new Wisej.Web.Button();
-            this.button22 = new Wisej.Web.Button();
-            this.button23 = new Wisej.Web.Button();
-            this.button24 = new Wisej.Web.Button();
-            this.button25 = new Wisej.Web.Button();
-            this.button26 = new Wisej.Web.Button();
-            this.button27 = new Wisej.Web.Button();
-            this.button28 = new Wisej.Web.Button();
-            this.button29 = new Wisej.Web.Button();
-            this.button30 = new Wisej.Web.Button();
-            this.button31 = new Wisej.Web.Button();
-            this.button32 = new Wisej.Web.Button();
-            this.button33 = new Wisej.Web.Button();
-            this.button34 = new Wisej.Web.Button();
-            this.button35 = new Wisej.Web.Button();
-            this.button36 = new Wisej.Web.Button();
-            this.button37 = new Wisej.Web.Button();
-            this.button38 = new Wisej.Web.Button();
-            this.button39 = new Wisej.Web.Button();
-            this.button40 = new Wisej.Web.Button();
-            this.button41 = new Wisej.Web.Button();
-            this.button42 = new Wisej.Web.Button();
-            this.button43 = new Wisej.Web.Button();
-            this.button44 = new Wisej.Web.Button();
-            this.button45 = new Wisej.Web.Button();
-            this.button46 = new Wisej.Web.Button();
-            this.button47 = new Wisej.Web.Button();
-            this.button48 = new Wisej.Web.Button();
-            this.button49 = new Wisej.Web.Button();
-            this.button50 = new Wisej.Web.Button();
-            this.tabDatasheetRun = new Wisej.Web.TabPage();
             this.tableLayoutPanel15 = new Wisej.Web.TableLayoutPanel();
             this.tableLayoutPanel16 = new Wisej.Web.TableLayoutPanel();
+            this.tableLayoutPanel18 = new Wisej.Web.TableLayoutPanel();
+            this.tableLayoutPanel30 = new Wisej.Web.TableLayoutPanel();
+            this.btnInfoHome = new Wisej.Web.Button();
+            this.btnInfoNext = new Wisej.Web.Button();
             this.tableLayoutPanel17 = new Wisej.Web.TableLayoutPanel();
             this.textBox38 = new Wisej.Web.TextBox();
             this.textBox37 = new Wisej.Web.TextBox();
@@ -203,14 +99,17 @@ namespace LinkedList
             this.label60 = new Wisej.Web.Label();
             this.textBox24 = new Wisej.Web.TextBox();
             this.textBox25 = new Wisej.Web.TextBox();
-            this.tableLayoutPanel18 = new Wisej.Web.TableLayoutPanel();
-            this.button51 = new Wisej.Web.Button();
-            this.button52 = new Wisej.Web.Button();
             this.tableLayoutPanel19 = new Wisej.Web.TableLayoutPanel();
             this.label61 = new Wisej.Web.Label();
             this.label62 = new Wisej.Web.Label();
+            this.tabDatasheetRun = new Wisej.Web.TabPage();
             this.tableLayoutPanel20 = new Wisej.Web.TableLayoutPanel();
             this.tableLayoutPanel21 = new Wisej.Web.TableLayoutPanel();
+            this.tableLayoutPanel23 = new Wisej.Web.TableLayoutPanel();
+            this.tableLayoutPanel31 = new Wisej.Web.TableLayoutPanel();
+            this.button53 = new Wisej.Web.Button();
+            this.btnRunHome = new Wisej.Web.Button();
+            this.button55 = new Wisej.Web.Button();
             this.tableLayoutPanel22 = new Wisej.Web.TableLayoutPanel();
             this.listView2 = new Wisej.Web.ListView();
             this.textBox26 = new Wisej.Web.TextBox();
@@ -241,43 +140,188 @@ namespace LinkedList
             this.label76 = new Wisej.Web.Label();
             this.textBox47 = new Wisej.Web.TextBox();
             this.textBox48 = new Wisej.Web.TextBox();
-            this.tableLayoutPanel23 = new Wisej.Web.TableLayoutPanel();
-            this.button53 = new Wisej.Web.Button();
-            this.button54 = new Wisej.Web.Button();
-            this.button55 = new Wisej.Web.Button();
             this.tableLayoutPanel24 = new Wisej.Web.TableLayoutPanel();
             this.label77 = new Wisej.Web.Label();
             this.label78 = new Wisej.Web.Label();
+            this.tabInspection = new Wisej.Web.TabPage();
+            this.tableLayoutPanel5 = new Wisej.Web.TableLayoutPanel();
+            this.tableLayoutPanel6 = new Wisej.Web.TableLayoutPanel();
+            this.tableLayoutPanel7 = new Wisej.Web.TableLayoutPanel();
+            this.tableLayoutPanel32 = new Wisej.Web.TableLayoutPanel();
+            this.label7 = new Wisej.Web.Label();
+            this.tableLayoutPanel14 = new Wisej.Web.TableLayoutPanel();
+            this.button50 = new Wisej.Web.Button();
+            this.button49 = new Wisej.Web.Button();
+            this.button48 = new Wisej.Web.Button();
+            this.button47 = new Wisej.Web.Button();
+            this.button46 = new Wisej.Web.Button();
+            this.button45 = new Wisej.Web.Button();
+            this.button44 = new Wisej.Web.Button();
+            this.button43 = new Wisej.Web.Button();
+            this.button42 = new Wisej.Web.Button();
+            this.button41 = new Wisej.Web.Button();
+            this.button40 = new Wisej.Web.Button();
+            this.button39 = new Wisej.Web.Button();
+            this.button38 = new Wisej.Web.Button();
+            this.button37 = new Wisej.Web.Button();
+            this.button36 = new Wisej.Web.Button();
+            this.button35 = new Wisej.Web.Button();
+            this.button34 = new Wisej.Web.Button();
+            this.button33 = new Wisej.Web.Button();
+            this.button32 = new Wisej.Web.Button();
+            this.button31 = new Wisej.Web.Button();
+            this.button30 = new Wisej.Web.Button();
+            this.button29 = new Wisej.Web.Button();
+            this.button28 = new Wisej.Web.Button();
+            this.button27 = new Wisej.Web.Button();
+            this.button26 = new Wisej.Web.Button();
+            this.button25 = new Wisej.Web.Button();
+            this.button24 = new Wisej.Web.Button();
+            this.button23 = new Wisej.Web.Button();
+            this.button22 = new Wisej.Web.Button();
+            this.button21 = new Wisej.Web.Button();
+            this.button20 = new Wisej.Web.Button();
+            this.button19 = new Wisej.Web.Button();
+            this.button18 = new Wisej.Web.Button();
+            this.button17 = new Wisej.Web.Button();
+            this.button16 = new Wisej.Web.Button();
+            this.button15 = new Wisej.Web.Button();
+            this.button14 = new Wisej.Web.Button();
+            this.button13 = new Wisej.Web.Button();
+            this.button12 = new Wisej.Web.Button();
+            this.button11 = new Wisej.Web.Button();
+            this.button10 = new Wisej.Web.Button();
+            this.button9 = new Wisej.Web.Button();
+            this.label17 = new Wisej.Web.Label();
+            this.label11 = new Wisej.Web.Label();
+            this.label18 = new Wisej.Web.Label();
+            this.label20 = new Wisej.Web.Label();
+            this.label8 = new Wisej.Web.Label();
+            this.label12 = new Wisej.Web.Label();
+            this.label19 = new Wisej.Web.Label();
+            this.label23 = new Wisej.Web.Label();
+            this.label21 = new Wisej.Web.Label();
+            this.label24 = new Wisej.Web.Label();
+            this.label25 = new Wisej.Web.Label();
+            this.label22 = new Wisej.Web.Label();
+            this.label26 = new Wisej.Web.Label();
+            this.label27 = new Wisej.Web.Label();
+            this.label33 = new Wisej.Web.Label();
+            this.label29 = new Wisej.Web.Label();
+            this.label28 = new Wisej.Web.Label();
+            this.label32 = new Wisej.Web.Label();
+            this.label34 = new Wisej.Web.Label();
+            this.label36 = new Wisej.Web.Label();
+            this.label30 = new Wisej.Web.Label();
+            this.tableLayoutPanel13 = new Wisej.Web.TableLayoutPanel();
+            this.textBox32 = new Wisej.Web.TextBox();
+            this.textBox31 = new Wisej.Web.TextBox();
+            this.textBox30 = new Wisej.Web.TextBox();
+            this.textBox29 = new Wisej.Web.TextBox();
+            this.textBox14 = new Wisej.Web.TextBox();
+            this.textBox13 = new Wisej.Web.TextBox();
+            this.textBox5 = new Wisej.Web.TextBox();
+            this.textBox4 = new Wisej.Web.TextBox();
+            this.textBox3 = new Wisej.Web.TextBox();
+            this.textBox2 = new Wisej.Web.TextBox();
+            this.textBox1 = new Wisej.Web.TextBox();
+            this.label31 = new Wisej.Web.Label();
+            this.label14 = new Wisej.Web.Label();
+            this.label3 = new Wisej.Web.Label();
+            this.label1 = new Wisej.Web.Label();
+            this.textBox6 = new Wisej.Web.TextBox();
+            this.label9 = new Wisej.Web.Label();
+            this.label10 = new Wisej.Web.Label();
+            this.label2 = new Wisej.Web.Label();
+            this.label13 = new Wisej.Web.Label();
+            this.label35 = new Wisej.Web.Label();
+            this.label4 = new Wisej.Web.Label();
+            this.label5 = new Wisej.Web.Label();
+            this.label6 = new Wisej.Web.Label();
+            this.tableLayoutPanel8 = new Wisej.Web.TableLayoutPanel();
+            this.btnVisualHome = new Wisej.Web.Button();
+            this.button8 = new Wisej.Web.Button();
+            this.tableLayoutPanel9 = new Wisej.Web.TableLayoutPanel();
+            this.label15 = new Wisej.Web.Label();
+            this.label16 = new Wisej.Web.Label();
+            this.tabWPQR = new Wisej.Web.TabPage();
+            this.tableLayoutPanel25 = new Wisej.Web.TableLayoutPanel();
+            this.tableLayoutPanel26 = new Wisej.Web.TableLayoutPanel();
+            this.tableLayoutPanel27 = new Wisej.Web.TableLayoutPanel();
+            this.label79 = new Wisej.Web.Label();
+            this.label80 = new Wisej.Web.Label();
+            this.label81 = new Wisej.Web.Label();
+            this.label82 = new Wisej.Web.Label();
+            this.label84 = new Wisej.Web.Label();
+            this.label85 = new Wisej.Web.Label();
+            this.label86 = new Wisej.Web.Label();
+            this.label87 = new Wisej.Web.Label();
+            this.label88 = new Wisej.Web.Label();
+            this.label89 = new Wisej.Web.Label();
+            this.label90 = new Wisej.Web.Label();
+            this.label91 = new Wisej.Web.Label();
+            this.label92 = new Wisej.Web.Label();
+            this.label93 = new Wisej.Web.Label();
+            this.label94 = new Wisej.Web.Label();
+            this.label96 = new Wisej.Web.Label();
+            this.label97 = new Wisej.Web.Label();
+            this.label98 = new Wisej.Web.Label();
+            this.label99 = new Wisej.Web.Label();
+            this.label100 = new Wisej.Web.Label();
+            this.label101 = new Wisej.Web.Label();
+            this.label102 = new Wisej.Web.Label();
+            this.tableLayoutPanel28 = new Wisej.Web.TableLayoutPanel();
+            this.button56 = new Wisej.Web.Button();
+            this.button57 = new Wisej.Web.Button();
+            this.tableLayoutPanel29 = new Wisej.Web.TableLayoutPanel();
+            this.label103 = new Wisej.Web.Label();
+            this.label104 = new Wisej.Web.Label();
+            this.tabPopup = new Wisej.Web.TabPage();
+            this.tableLayoutPanel10 = new Wisej.Web.TableLayoutPanel();
+            this.tableLayoutPanel11 = new Wisej.Web.TableLayoutPanel();
+            this.lblPopup = new Wisej.Web.Label();
+            this.tableLayoutPanel12 = new Wisej.Web.TableLayoutPanel();
+            this.btnNo = new Wisej.Web.Button();
+            this.btnYes = new Wisej.Web.Button();
             this.Boards.SuspendLayout();
             this.tabHome.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.tabDatasheetInfo.SuspendLayout();
+            this.tableLayoutPanel15.SuspendLayout();
+            this.tableLayoutPanel16.SuspendLayout();
+            this.tableLayoutPanel18.SuspendLayout();
+            this.tableLayoutPanel30.SuspendLayout();
+            this.tableLayoutPanel17.SuspendLayout();
+            this.tableLayoutPanel19.SuspendLayout();
+            this.tabDatasheetRun.SuspendLayout();
+            this.tableLayoutPanel20.SuspendLayout();
+            this.tableLayoutPanel21.SuspendLayout();
+            this.tableLayoutPanel23.SuspendLayout();
+            this.tableLayoutPanel31.SuspendLayout();
+            this.tableLayoutPanel22.SuspendLayout();
+            this.tableLayoutPanel24.SuspendLayout();
+            this.tabInspection.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
+            this.tableLayoutPanel6.SuspendLayout();
+            this.tableLayoutPanel7.SuspendLayout();
+            this.tableLayoutPanel32.SuspendLayout();
+            this.tableLayoutPanel14.SuspendLayout();
+            this.tableLayoutPanel13.SuspendLayout();
+            this.tableLayoutPanel8.SuspendLayout();
+            this.tableLayoutPanel9.SuspendLayout();
+            this.tabWPQR.SuspendLayout();
+            this.tableLayoutPanel25.SuspendLayout();
+            this.tableLayoutPanel26.SuspendLayout();
+            this.tableLayoutPanel27.SuspendLayout();
+            this.tableLayoutPanel28.SuspendLayout();
+            this.tableLayoutPanel29.SuspendLayout();
             this.tabPopup.SuspendLayout();
             this.tableLayoutPanel10.SuspendLayout();
             this.tableLayoutPanel11.SuspendLayout();
             this.tableLayoutPanel12.SuspendLayout();
-            this.tabDatasheetInfo.SuspendLayout();
-            this.tabInspection.SuspendLayout();
-            this.tableLayoutPanel5.SuspendLayout();
-            this.tableLayoutPanel6.SuspendLayout();
-            this.tableLayoutPanel8.SuspendLayout();
-            this.tableLayoutPanel9.SuspendLayout();
-            this.tableLayoutPanel7.SuspendLayout();
-            this.tableLayoutPanel13.SuspendLayout();
-            this.tableLayoutPanel14.SuspendLayout();
-            this.tabDatasheetRun.SuspendLayout();
-            this.tableLayoutPanel15.SuspendLayout();
-            this.tableLayoutPanel16.SuspendLayout();
-            this.tableLayoutPanel17.SuspendLayout();
-            this.tableLayoutPanel18.SuspendLayout();
-            this.tableLayoutPanel19.SuspendLayout();
-            this.tableLayoutPanel20.SuspendLayout();
-            this.tableLayoutPanel21.SuspendLayout();
-            this.tableLayoutPanel22.SuspendLayout();
-            this.tableLayoutPanel23.SuspendLayout();
-            this.tableLayoutPanel24.SuspendLayout();
             this.SuspendLayout();
             // 
             // Boards
@@ -288,6 +332,7 @@ namespace LinkedList
             this.Boards.Controls.Add(this.tabDatasheetInfo);
             this.Boards.Controls.Add(this.tabDatasheetRun);
             this.Boards.Controls.Add(this.tabInspection);
+            this.Boards.Controls.Add(this.tabWPQR);
             this.Boards.Controls.Add(this.tabPopup);
             this.Boards.Display = Wisej.Web.Display.Label;
             this.Boards.Dock = Wisej.Web.DockStyle.Fill;
@@ -347,12 +392,13 @@ namespace LinkedList
             // 
             // tableLayoutPanel4
             // 
+            this.tableLayoutPanel4.BorderStyle = Wisej.Web.BorderStyle.Solid;
             this.tableLayoutPanel4.ColumnCount = 1;
             this.tableLayoutPanel4.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
             this.tableLayoutPanel4.Controls.Add(this.button7, 0, 6);
             this.tableLayoutPanel4.Controls.Add(this.button1, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.btnWelderQualification, 0, 1);
-            this.tableLayoutPanel4.Controls.Add(this.button3, 0, 2);
+            this.tableLayoutPanel4.Controls.Add(this.btnCompleteVisual, 0, 2);
             this.tableLayoutPanel4.Controls.Add(this.button4, 0, 3);
             this.tableLayoutPanel4.Controls.Add(this.button5, 0, 4);
             this.tableLayoutPanel4.Controls.Add(this.button6, 0, 5);
@@ -375,7 +421,7 @@ namespace LinkedList
             this.button7.Dock = Wisej.Web.DockStyle.Fill;
             this.button7.Location = new System.Drawing.Point(3, 369);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(160, 61);
+            this.button7.Size = new System.Drawing.Size(158, 59);
             this.button7.TabIndex = 7;
             this.button7.Text = "button7";
             // 
@@ -384,7 +430,7 @@ namespace LinkedList
             this.button1.Dock = Wisej.Web.DockStyle.Fill;
             this.button1.Location = new System.Drawing.Point(3, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(160, 55);
+            this.button1.Size = new System.Drawing.Size(158, 55);
             this.button1.TabIndex = 1;
             this.button1.Text = "Request Welding\r\non Job";
             // 
@@ -393,26 +439,27 @@ namespace LinkedList
             this.btnWelderQualification.Dock = Wisej.Web.DockStyle.Fill;
             this.btnWelderQualification.Location = new System.Drawing.Point(3, 64);
             this.btnWelderQualification.Name = "btnWelderQualification";
-            this.btnWelderQualification.Size = new System.Drawing.Size(160, 55);
+            this.btnWelderQualification.Size = new System.Drawing.Size(158, 55);
             this.btnWelderQualification.TabIndex = 2;
             this.btnWelderQualification.Text = "Complete Welder Qualification";
             this.btnWelderQualification.Click += new System.EventHandler(this.btnWelderQualification_Click);
             // 
-            // button3
+            // btnCompleteVisual
             // 
-            this.button3.Dock = Wisej.Web.DockStyle.Fill;
-            this.button3.Location = new System.Drawing.Point(3, 125);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(160, 55);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
+            this.btnCompleteVisual.Dock = Wisej.Web.DockStyle.Fill;
+            this.btnCompleteVisual.Location = new System.Drawing.Point(3, 125);
+            this.btnCompleteVisual.Name = "btnCompleteVisual";
+            this.btnCompleteVisual.Size = new System.Drawing.Size(158, 55);
+            this.btnCompleteVisual.TabIndex = 3;
+            this.btnCompleteVisual.Text = "Complete Visual Inspection";
+            this.btnCompleteVisual.Click += new System.EventHandler(this.btnCompleteVisual_Click);
             // 
             // button4
             // 
             this.button4.Dock = Wisej.Web.DockStyle.Fill;
             this.button4.Location = new System.Drawing.Point(3, 186);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(160, 55);
+            this.button4.Size = new System.Drawing.Size(158, 55);
             this.button4.TabIndex = 4;
             this.button4.Text = "button4";
             // 
@@ -421,7 +468,7 @@ namespace LinkedList
             this.button5.Dock = Wisej.Web.DockStyle.Fill;
             this.button5.Location = new System.Drawing.Point(3, 247);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(160, 55);
+            this.button5.Size = new System.Drawing.Size(158, 55);
             this.button5.TabIndex = 5;
             this.button5.Text = "button5";
             // 
@@ -430,7 +477,7 @@ namespace LinkedList
             this.button6.Dock = Wisej.Web.DockStyle.Fill;
             this.button6.Location = new System.Drawing.Point(3, 308);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(160, 55);
+            this.button6.Size = new System.Drawing.Size(158, 55);
             this.button6.TabIndex = 6;
             this.button6.Text = "button6";
             // 
@@ -483,100 +530,6 @@ namespace LinkedList
             this.lblHomeTitle.Text = "Title";
             this.lblHomeTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // tabPopup
-            // 
-            this.tabPopup.Controls.Add(this.tableLayoutPanel10);
-            this.tabPopup.Location = new System.Drawing.Point(0, 35);
-            this.tabPopup.Name = "tabPopup";
-            this.tabPopup.Size = new System.Drawing.Size(1212, 615);
-            this.tabPopup.Text = "Popup";
-            // 
-            // tableLayoutPanel10
-            // 
-            this.tableLayoutPanel10.ColumnCount = 5;
-            this.tableLayoutPanel10.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Absolute, 20F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Absolute, 250F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Absolute, 20F));
-            this.tableLayoutPanel10.Controls.Add(this.tableLayoutPanel11, 2, 2);
-            this.tableLayoutPanel10.Dock = Wisej.Web.DockStyle.Fill;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
-            this.tableLayoutPanel10.RowCount = 5;
-            this.tableLayoutPanel10.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Absolute, 20F));
-            this.tableLayoutPanel10.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 40F));
-            this.tableLayoutPanel10.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Absolute, 160F));
-            this.tableLayoutPanel10.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 60F));
-            this.tableLayoutPanel10.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Absolute, 20F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(1212, 615);
-            this.tableLayoutPanel10.TabIndex = 0;
-            this.tableLayoutPanel10.TabStop = true;
-            // 
-            // tableLayoutPanel11
-            // 
-            this.tableLayoutPanel11.BorderStyle = Wisej.Web.BorderStyle.Solid;
-            this.tableLayoutPanel11.ColumnCount = 1;
-            this.tableLayoutPanel11.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
-            this.tableLayoutPanel11.Controls.Add(this.lblPopup, 0, 0);
-            this.tableLayoutPanel11.Controls.Add(this.tableLayoutPanel12, 0, 1);
-            this.tableLayoutPanel11.Dock = Wisej.Web.DockStyle.Fill;
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(484, 189);
-            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
-            this.tableLayoutPanel11.RowCount = 2;
-            this.tableLayoutPanel11.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 70F));
-            this.tableLayoutPanel11.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 30F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(244, 154);
-            this.tableLayoutPanel11.TabIndex = 0;
-            this.tableLayoutPanel11.TabStop = true;
-            // 
-            // lblPopup
-            // 
-            this.lblPopup.AutoSize = true;
-            this.lblPopup.Dock = Wisej.Web.DockStyle.Fill;
-            this.lblPopup.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblPopup.Location = new System.Drawing.Point(3, 3);
-            this.lblPopup.Name = "lblPopup";
-            this.lblPopup.Size = new System.Drawing.Size(236, 100);
-            this.lblPopup.TabIndex = 1;
-            this.lblPopup.Text = "Do You Wish To Delete This Item?";
-            this.lblPopup.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tableLayoutPanel12
-            // 
-            this.tableLayoutPanel12.ColumnCount = 3;
-            this.tableLayoutPanel12.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Absolute, 70F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Absolute, 70F));
-            this.tableLayoutPanel12.Controls.Add(this.btnNo, 2, 0);
-            this.tableLayoutPanel12.Controls.Add(this.btnYes, 0, 0);
-            this.tableLayoutPanel12.Dock = Wisej.Web.DockStyle.Fill;
-            this.tableLayoutPanel12.Location = new System.Drawing.Point(3, 109);
-            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
-            this.tableLayoutPanel12.RowCount = 1;
-            this.tableLayoutPanel12.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 50F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(236, 40);
-            this.tableLayoutPanel12.TabIndex = 0;
-            this.tableLayoutPanel12.TabStop = true;
-            // 
-            // btnNo
-            // 
-            this.btnNo.Dock = Wisej.Web.DockStyle.Fill;
-            this.btnNo.Location = new System.Drawing.Point(169, 3);
-            this.btnNo.Name = "btnNo";
-            this.btnNo.Size = new System.Drawing.Size(64, 34);
-            this.btnNo.TabIndex = 1;
-            this.btnNo.Text = "No";
-            // 
-            // btnYes
-            // 
-            this.btnYes.Dock = Wisej.Web.DockStyle.Fill;
-            this.btnYes.Location = new System.Drawing.Point(3, 3);
-            this.btnYes.Name = "btnYes";
-            this.btnYes.Size = new System.Drawing.Size(64, 34);
-            this.btnYes.TabIndex = 0;
-            this.btnYes.Text = "Yes";
-            // 
             // tabDatasheetInfo
             // 
             this.tabDatasheetInfo.Controls.Add(this.tableLayoutPanel15);
@@ -584,1163 +537,6 @@ namespace LinkedList
             this.tabDatasheetInfo.Name = "tabDatasheetInfo";
             this.tabDatasheetInfo.Size = new System.Drawing.Size(1212, 615);
             this.tabDatasheetInfo.Text = "Info";
-            // 
-            // tabInspection
-            // 
-            this.tabInspection.Controls.Add(this.tableLayoutPanel5);
-            this.tabInspection.Location = new System.Drawing.Point(0, 35);
-            this.tabInspection.Name = "tabInspection";
-            this.tabInspection.Size = new System.Drawing.Size(1212, 615);
-            this.tabInspection.Text = "Visual Inspection";
-            // 
-            // tableLayoutPanel5
-            // 
-            this.tableLayoutPanel5.ColumnCount = 3;
-            this.tableLayoutPanel5.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 2.5F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 95F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 2.5F));
-            this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel6, 1, 3);
-            this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel9, 1, 1);
-            this.tableLayoutPanel5.Dock = Wisej.Web.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 5;
-            this.tableLayoutPanel5.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 2.5F));
-            this.tableLayoutPanel5.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel5.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 2.5F));
-            this.tableLayoutPanel5.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 72.5F));
-            this.tableLayoutPanel5.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 2.5F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(1212, 615);
-            this.tableLayoutPanel5.TabIndex = 1;
-            // 
-            // tableLayoutPanel6
-            // 
-            this.tableLayoutPanel6.ColumnCount = 2;
-            this.tableLayoutPanel6.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 90F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 10F));
-            this.tableLayoutPanel6.Controls.Add(this.tableLayoutPanel7, 0, 0);
-            this.tableLayoutPanel6.Controls.Add(this.tableLayoutPanel8, 1, 0);
-            this.tableLayoutPanel6.Dock = Wisej.Web.DockStyle.Fill;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(33, 156);
-            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
-            this.tableLayoutPanel6.RowCount = 1;
-            this.tableLayoutPanel6.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 50F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(1145, 439);
-            this.tableLayoutPanel6.TabIndex = 1;
-            // 
-            // tableLayoutPanel8
-            // 
-            this.tableLayoutPanel8.BorderStyle = Wisej.Web.BorderStyle.Solid;
-            this.tableLayoutPanel8.ColumnCount = 1;
-            this.tableLayoutPanel8.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
-            this.tableLayoutPanel8.Controls.Add(this.button2, 0, 3);
-            this.tableLayoutPanel8.Controls.Add(this.button8, 0, 4);
-            this.tableLayoutPanel8.Dock = Wisej.Web.DockStyle.Fill;
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(1033, 3);
-            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
-            this.tableLayoutPanel8.RowCount = 5;
-            this.tableLayoutPanel8.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel8.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel8.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel8.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel8.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel8.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Absolute, 20F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(109, 433);
-            this.tableLayoutPanel8.TabIndex = 3;
-            // 
-            // button2
-            // 
-            this.button2.Dock = Wisej.Web.DockStyle.Fill;
-            this.button2.Location = new System.Drawing.Point(3, 261);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(101, 80);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Home";
-            // 
-            // button8
-            // 
-            this.button8.Dock = Wisej.Web.DockStyle.Fill;
-            this.button8.Location = new System.Drawing.Point(3, 347);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(101, 81);
-            this.button8.TabIndex = 0;
-            this.button8.Text = "Next";
-            // 
-            // tableLayoutPanel9
-            // 
-            this.tableLayoutPanel9.ColumnCount = 1;
-            this.tableLayoutPanel9.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.Controls.Add(this.label15, 0, 1);
-            this.tableLayoutPanel9.Controls.Add(this.label16, 0, 0);
-            this.tableLayoutPanel9.Dock = Wisej.Web.DockStyle.Fill;
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(33, 18);
-            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
-            this.tableLayoutPanel9.RowCount = 2;
-            this.tableLayoutPanel9.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 65F));
-            this.tableLayoutPanel9.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 35F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(1145, 117);
-            this.tableLayoutPanel9.TabIndex = 0;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.FromName("@focusFrame");
-            this.label15.BorderStyle = Wisej.Web.BorderStyle.Solid;
-            this.label15.Dock = Wisej.Web.DockStyle.Fill;
-            this.label15.Location = new System.Drawing.Point(3, 79);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(1139, 35);
-            this.label15.TabIndex = 1;
-            this.label15.Text = "Notes";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
-            this.label16.BorderStyle = Wisej.Web.BorderStyle.Solid;
-            this.label16.Dock = Wisej.Web.DockStyle.Fill;
-            this.label16.Location = new System.Drawing.Point(3, 3);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(1139, 70);
-            this.label16.TabIndex = 0;
-            this.label16.Text = "Welding Test Datasheet Information";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tableLayoutPanel7
-            // 
-            this.tableLayoutPanel7.ColumnCount = 1;
-            this.tableLayoutPanel7.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.Controls.Add(this.tableLayoutPanel14, 0, 2);
-            this.tableLayoutPanel7.Controls.Add(this.tableLayoutPanel13, 0, 0);
-            this.tableLayoutPanel7.Controls.Add(this.label7, 0, 1);
-            this.tableLayoutPanel7.Dock = Wisej.Web.DockStyle.Fill;
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel7.Name = "tableLayoutPanel7";
-            this.tableLayoutPanel7.RowCount = 3;
-            this.tableLayoutPanel7.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 47F));
-            this.tableLayoutPanel7.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 6F));
-            this.tableLayoutPanel7.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 47F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(1024, 433);
-            this.tableLayoutPanel7.TabIndex = 4;
-            // 
-            // tableLayoutPanel13
-            // 
-            this.tableLayoutPanel13.ColumnCount = 4;
-            this.tableLayoutPanel13.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 25F));
-            this.tableLayoutPanel13.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 25F));
-            this.tableLayoutPanel13.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 25F));
-            this.tableLayoutPanel13.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 25F));
-            this.tableLayoutPanel13.Controls.Add(this.textBox32, 3, 5);
-            this.tableLayoutPanel13.Controls.Add(this.textBox31, 3, 4);
-            this.tableLayoutPanel13.Controls.Add(this.textBox30, 3, 3);
-            this.tableLayoutPanel13.Controls.Add(this.textBox29, 3, 2);
-            this.tableLayoutPanel13.Controls.Add(this.textBox14, 3, 1);
-            this.tableLayoutPanel13.Controls.Add(this.textBox13, 3, 0);
-            this.tableLayoutPanel13.Controls.Add(this.textBox5, 1, 4);
-            this.tableLayoutPanel13.Controls.Add(this.textBox4, 1, 3);
-            this.tableLayoutPanel13.Controls.Add(this.textBox3, 1, 2);
-            this.tableLayoutPanel13.Controls.Add(this.textBox2, 1, 1);
-            this.tableLayoutPanel13.Controls.Add(this.textBox1, 1, 0);
-            this.tableLayoutPanel13.Controls.Add(this.label31, 2, 2);
-            this.tableLayoutPanel13.Controls.Add(this.label14, 2, 1);
-            this.tableLayoutPanel13.Controls.Add(this.label3, 0, 2);
-            this.tableLayoutPanel13.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel13.Controls.Add(this.textBox6, 1, 5);
-            this.tableLayoutPanel13.Controls.Add(this.label9, 0, 3);
-            this.tableLayoutPanel13.Controls.Add(this.label10, 0, 4);
-            this.tableLayoutPanel13.Controls.Add(this.label2, 2, 0);
-            this.tableLayoutPanel13.Controls.Add(this.label13, 0, 1);
-            this.tableLayoutPanel13.Controls.Add(this.label35, 2, 3);
-            this.tableLayoutPanel13.Controls.Add(this.label4, 2, 4);
-            this.tableLayoutPanel13.Controls.Add(this.label5, 0, 5);
-            this.tableLayoutPanel13.Controls.Add(this.label6, 2, 5);
-            this.tableLayoutPanel13.Dock = Wisej.Web.DockStyle.Fill;
-            this.tableLayoutPanel13.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel13.Name = "tableLayoutPanel13";
-            this.tableLayoutPanel13.RowCount = 6;
-            this.tableLayoutPanel13.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel13.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel13.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel13.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel13.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel13.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel13.Size = new System.Drawing.Size(1018, 197);
-            this.tableLayoutPanel13.TabIndex = 5;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(3, 3);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(151, 20);
-            this.label17.TabIndex = 55;
-            this.label17.Text = "Weld Identification";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(3, 206);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(135, 19);
-            this.label7.TabIndex = 51;
-            this.label7.Text = "Inspection results";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // textBox32
-            // 
-            this.textBox32.Dock = Wisej.Web.DockStyle.Fill;
-            this.textBox32.Location = new System.Drawing.Point(765, 163);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(250, 31);
-            this.textBox32.TabIndex = 41;
-            // 
-            // textBox31
-            // 
-            this.textBox31.Dock = Wisej.Web.DockStyle.Fill;
-            this.textBox31.Location = new System.Drawing.Point(765, 131);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(250, 26);
-            this.textBox31.TabIndex = 40;
-            // 
-            // textBox30
-            // 
-            this.textBox30.Dock = Wisej.Web.DockStyle.Fill;
-            this.textBox30.Location = new System.Drawing.Point(765, 99);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(250, 26);
-            this.textBox30.TabIndex = 39;
-            // 
-            // textBox29
-            // 
-            this.textBox29.Dock = Wisej.Web.DockStyle.Fill;
-            this.textBox29.Location = new System.Drawing.Point(765, 67);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(250, 26);
-            this.textBox29.TabIndex = 38;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Dock = Wisej.Web.DockStyle.Fill;
-            this.textBox14.Location = new System.Drawing.Point(765, 35);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(250, 26);
-            this.textBox14.TabIndex = 37;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Dock = Wisej.Web.DockStyle.Fill;
-            this.textBox13.Location = new System.Drawing.Point(765, 3);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(250, 26);
-            this.textBox13.TabIndex = 36;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Dock = Wisej.Web.DockStyle.Fill;
-            this.textBox5.Location = new System.Drawing.Point(257, 131);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(248, 26);
-            this.textBox5.TabIndex = 28;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Dock = Wisej.Web.DockStyle.Fill;
-            this.textBox4.Location = new System.Drawing.Point(257, 99);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(248, 26);
-            this.textBox4.TabIndex = 27;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Dock = Wisej.Web.DockStyle.Fill;
-            this.textBox3.Location = new System.Drawing.Point(257, 67);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(248, 26);
-            this.textBox3.TabIndex = 26;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Dock = Wisej.Web.DockStyle.Fill;
-            this.textBox2.Location = new System.Drawing.Point(257, 35);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(248, 26);
-            this.textBox2.TabIndex = 25;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Dock = Wisej.Web.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(257, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(248, 26);
-            this.textBox1.TabIndex = 24;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(511, 67);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(73, 20);
-            this.label31.TabIndex = 14;
-            this.label31.Text = "Location";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(511, 35);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(43, 20);
-            this.label14.TabIndex = 13;
-            this.label14.Text = "Date";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 67);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(144, 20);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Welding Standard";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "WPQR Number";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Dock = Wisej.Web.DockStyle.Fill;
-            this.textBox6.Location = new System.Drawing.Point(257, 163);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(248, 31);
-            this.textBox6.TabIndex = 29;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(3, 99);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(144, 20);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "Material Standard";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(3, 131);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(124, 20);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "Material Grade";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(511, 3);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Job Number";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(3, 35);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(80, 20);
-            this.label13.TabIndex = 12;
-            this.label13.Text = "Welder ID";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(511, 99);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(85, 20);
-            this.label35.TabIndex = 18;
-            this.label35.Text = "Weld Map";
-            this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(511, 131);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(143, 20);
-            this.label4.TabIndex = 48;
-            this.label4.Text = "Drawing Numbers";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 163);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(240, 20);
-            this.label5.TabIndex = 49;
-            this.label5.Text = "Quantity / Item Serial Numbers";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(511, 163);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(130, 20);
-            this.label6.TabIndex = 50;
-            this.label6.Text = "Notes / Remarks";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(3, 59);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(128, 20);
-            this.label18.TabIndex = 56;
-            this.label18.Text = "Initial Inspection";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(3, 115);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(124, 20);
-            this.label8.TabIndex = 52;
-            this.label8.Text = "Final Inspection";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(3, 171);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(163, 20);
-            this.label19.TabIndex = 57;
-            this.label19.Text = "Welder Qualification";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(3, 31);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(172, 20);
-            this.label11.TabIndex = 53;
-            this.label11.Text = "Welders Identification";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(3, 87);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(183, 20);
-            this.label20.TabIndex = 58;
-            this.label20.Text = "Repair Weld Inspection";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(3, 143);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(154, 20);
-            this.label12.TabIndex = 54;
-            this.label12.Text = "Welding Procedure";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(341, 31);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(140, 20);
-            this.label21.TabIndex = 59;
-            this.label21.Text = "Weld Size / Profile";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(341, 3);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(130, 20);
-            this.label23.TabIndex = 61;
-            this.label23.Text = "Material Control";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(341, 115);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(189, 20);
-            this.label22.TabIndex = 60;
-            this.label22.Text = "Incomplete Penetration";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // tableLayoutPanel14
-            // 
-            this.tableLayoutPanel14.ColumnCount = 9;
-            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 5F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 5F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 5F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 5F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 5F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 5F));
-            this.tableLayoutPanel14.Controls.Add(this.button50, 8, 6);
-            this.tableLayoutPanel14.Controls.Add(this.button49, 7, 6);
-            this.tableLayoutPanel14.Controls.Add(this.button48, 5, 6);
-            this.tableLayoutPanel14.Controls.Add(this.button47, 4, 6);
-            this.tableLayoutPanel14.Controls.Add(this.button46, 2, 6);
-            this.tableLayoutPanel14.Controls.Add(this.button45, 1, 6);
-            this.tableLayoutPanel14.Controls.Add(this.button44, 8, 5);
-            this.tableLayoutPanel14.Controls.Add(this.button43, 7, 5);
-            this.tableLayoutPanel14.Controls.Add(this.button42, 5, 5);
-            this.tableLayoutPanel14.Controls.Add(this.button41, 4, 5);
-            this.tableLayoutPanel14.Controls.Add(this.button40, 2, 5);
-            this.tableLayoutPanel14.Controls.Add(this.button39, 1, 5);
-            this.tableLayoutPanel14.Controls.Add(this.button38, 8, 4);
-            this.tableLayoutPanel14.Controls.Add(this.button37, 7, 4);
-            this.tableLayoutPanel14.Controls.Add(this.button36, 5, 4);
-            this.tableLayoutPanel14.Controls.Add(this.button35, 4, 4);
-            this.tableLayoutPanel14.Controls.Add(this.button34, 2, 4);
-            this.tableLayoutPanel14.Controls.Add(this.button33, 1, 4);
-            this.tableLayoutPanel14.Controls.Add(this.button32, 8, 3);
-            this.tableLayoutPanel14.Controls.Add(this.button31, 7, 3);
-            this.tableLayoutPanel14.Controls.Add(this.button30, 5, 3);
-            this.tableLayoutPanel14.Controls.Add(this.button29, 4, 3);
-            this.tableLayoutPanel14.Controls.Add(this.button28, 2, 3);
-            this.tableLayoutPanel14.Controls.Add(this.button27, 1, 3);
-            this.tableLayoutPanel14.Controls.Add(this.button26, 8, 2);
-            this.tableLayoutPanel14.Controls.Add(this.button25, 7, 2);
-            this.tableLayoutPanel14.Controls.Add(this.button24, 5, 2);
-            this.tableLayoutPanel14.Controls.Add(this.button23, 4, 2);
-            this.tableLayoutPanel14.Controls.Add(this.button22, 2, 2);
-            this.tableLayoutPanel14.Controls.Add(this.button21, 1, 2);
-            this.tableLayoutPanel14.Controls.Add(this.button20, 8, 1);
-            this.tableLayoutPanel14.Controls.Add(this.button19, 7, 1);
-            this.tableLayoutPanel14.Controls.Add(this.button18, 5, 1);
-            this.tableLayoutPanel14.Controls.Add(this.button17, 4, 1);
-            this.tableLayoutPanel14.Controls.Add(this.button16, 2, 1);
-            this.tableLayoutPanel14.Controls.Add(this.button15, 8, 0);
-            this.tableLayoutPanel14.Controls.Add(this.button14, 7, 0);
-            this.tableLayoutPanel14.Controls.Add(this.button13, 5, 0);
-            this.tableLayoutPanel14.Controls.Add(this.button12, 4, 0);
-            this.tableLayoutPanel14.Controls.Add(this.button11, 2, 0);
-            this.tableLayoutPanel14.Controls.Add(this.button10, 1, 1);
-            this.tableLayoutPanel14.Controls.Add(this.button9, 1, 0);
-            this.tableLayoutPanel14.Controls.Add(this.label17, 0, 0);
-            this.tableLayoutPanel14.Controls.Add(this.label11, 0, 1);
-            this.tableLayoutPanel14.Controls.Add(this.label18, 0, 2);
-            this.tableLayoutPanel14.Controls.Add(this.label20, 0, 3);
-            this.tableLayoutPanel14.Controls.Add(this.label8, 0, 4);
-            this.tableLayoutPanel14.Controls.Add(this.label12, 0, 5);
-            this.tableLayoutPanel14.Controls.Add(this.label19, 0, 6);
-            this.tableLayoutPanel14.Controls.Add(this.label23, 3, 0);
-            this.tableLayoutPanel14.Controls.Add(this.label21, 3, 1);
-            this.tableLayoutPanel14.Controls.Add(this.label24, 3, 2);
-            this.tableLayoutPanel14.Controls.Add(this.label25, 3, 3);
-            this.tableLayoutPanel14.Controls.Add(this.label22, 3, 4);
-            this.tableLayoutPanel14.Controls.Add(this.label26, 3, 5);
-            this.tableLayoutPanel14.Controls.Add(this.label27, 3, 6);
-            this.tableLayoutPanel14.Controls.Add(this.label33, 6, 5);
-            this.tableLayoutPanel14.Controls.Add(this.label29, 6, 4);
-            this.tableLayoutPanel14.Controls.Add(this.label28, 6, 6);
-            this.tableLayoutPanel14.Controls.Add(this.label32, 6, 3);
-            this.tableLayoutPanel14.Controls.Add(this.label34, 6, 2);
-            this.tableLayoutPanel14.Controls.Add(this.label36, 6, 1);
-            this.tableLayoutPanel14.Controls.Add(this.label30, 6, 0);
-            this.tableLayoutPanel14.Dock = Wisej.Web.DockStyle.Fill;
-            this.tableLayoutPanel14.Location = new System.Drawing.Point(3, 231);
-            this.tableLayoutPanel14.Name = "tableLayoutPanel14";
-            this.tableLayoutPanel14.RowCount = 7;
-            this.tableLayoutPanel14.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel14.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel14.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel14.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel14.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel14.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel14.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel14.Size = new System.Drawing.Size(1018, 199);
-            this.tableLayoutPanel14.TabIndex = 52;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(341, 59);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(117, 20);
-            this.label24.TabIndex = 62;
-            this.label24.Text = "Weld Location";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(341, 87);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(58, 20);
-            this.label25.TabIndex = 63;
-            this.label25.Text = "Cracks";
-            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(341, 143);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(146, 20);
-            this.label26.TabIndex = 64;
-            this.label26.Text = "Incomplete Fusion";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(341, 171);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(63, 20);
-            this.label27.TabIndex = 65;
-            this.label27.Text = "Porosity";
-            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(679, 171);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(94, 20);
-            this.label28.TabIndex = 66;
-            this.label28.Text = "Satisfactory";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(679, 115);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(79, 20);
-            this.label29.TabIndex = 67;
-            this.label29.Text = "SuckBack";
-            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(679, 3);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(105, 20);
-            this.label30.TabIndex = 68;
-            this.label30.Text = "Burn Through";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(679, 87);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(164, 20);
-            this.label32.TabIndex = 69;
-            this.label32.Text = "Weld Reinforcement";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(679, 143);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(161, 20);
-            this.label33.TabIndex = 70;
-            this.label33.Text = "Crater Cross Section";
-            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(679, 59);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(76, 20);
-            this.label34.TabIndex = 71;
-            this.label34.Text = "Arc Strike";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(679, 31);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(76, 20);
-            this.label36.TabIndex = 72;
-            this.label36.Text = "Undercut";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button9.Dock = Wisej.Web.DockStyle.Fill;
-            this.button9.Location = new System.Drawing.Point(229, 3);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(50, 22);
-            this.button9.TabIndex = 73;
-            this.button9.Text = "✓";
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button10.Dock = Wisej.Web.DockStyle.Fill;
-            this.button10.Location = new System.Drawing.Point(229, 31);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(50, 22);
-            this.button10.TabIndex = 74;
-            this.button10.Text = "✓";
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button11.Dock = Wisej.Web.DockStyle.Fill;
-            this.button11.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button11.Location = new System.Drawing.Point(285, 3);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(50, 22);
-            this.button11.TabIndex = 75;
-            this.button11.Text = "×";
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button12.Dock = Wisej.Web.DockStyle.Fill;
-            this.button12.Location = new System.Drawing.Point(567, 3);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(50, 22);
-            this.button12.TabIndex = 76;
-            this.button12.Text = "✓";
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button13.Dock = Wisej.Web.DockStyle.Fill;
-            this.button13.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button13.Location = new System.Drawing.Point(623, 3);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(50, 22);
-            this.button13.TabIndex = 77;
-            this.button13.Text = "×";
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button14.Dock = Wisej.Web.DockStyle.Fill;
-            this.button14.Location = new System.Drawing.Point(905, 3);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(50, 22);
-            this.button14.TabIndex = 78;
-            this.button14.Text = "✓";
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button15.Dock = Wisej.Web.DockStyle.Fill;
-            this.button15.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button15.Location = new System.Drawing.Point(961, 3);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(54, 22);
-            this.button15.TabIndex = 79;
-            this.button15.Text = "×";
-            // 
-            // button16
-            // 
-            this.button16.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button16.Dock = Wisej.Web.DockStyle.Fill;
-            this.button16.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button16.Location = new System.Drawing.Point(285, 31);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(50, 22);
-            this.button16.TabIndex = 80;
-            this.button16.Text = "×";
-            // 
-            // button17
-            // 
-            this.button17.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button17.Dock = Wisej.Web.DockStyle.Fill;
-            this.button17.Location = new System.Drawing.Point(567, 31);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(50, 22);
-            this.button17.TabIndex = 81;
-            this.button17.Text = "✓";
-            // 
-            // button18
-            // 
-            this.button18.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button18.Dock = Wisej.Web.DockStyle.Fill;
-            this.button18.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button18.Location = new System.Drawing.Point(623, 31);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(50, 22);
-            this.button18.TabIndex = 82;
-            this.button18.Text = "×";
-            // 
-            // button19
-            // 
-            this.button19.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button19.Dock = Wisej.Web.DockStyle.Fill;
-            this.button19.Location = new System.Drawing.Point(905, 31);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(50, 22);
-            this.button19.TabIndex = 83;
-            this.button19.Text = "✓";
-            // 
-            // button20
-            // 
-            this.button20.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button20.Dock = Wisej.Web.DockStyle.Fill;
-            this.button20.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button20.Location = new System.Drawing.Point(961, 31);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(54, 22);
-            this.button20.TabIndex = 84;
-            this.button20.Text = "×";
-            // 
-            // button21
-            // 
-            this.button21.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button21.Dock = Wisej.Web.DockStyle.Fill;
-            this.button21.Location = new System.Drawing.Point(229, 59);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(50, 22);
-            this.button21.TabIndex = 85;
-            this.button21.Text = "✓";
-            // 
-            // button22
-            // 
-            this.button22.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button22.Dock = Wisej.Web.DockStyle.Fill;
-            this.button22.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button22.Location = new System.Drawing.Point(285, 59);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(50, 22);
-            this.button22.TabIndex = 86;
-            this.button22.Text = "×";
-            // 
-            // button23
-            // 
-            this.button23.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button23.Dock = Wisej.Web.DockStyle.Fill;
-            this.button23.Location = new System.Drawing.Point(567, 59);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(50, 22);
-            this.button23.TabIndex = 87;
-            this.button23.Text = "✓";
-            // 
-            // button24
-            // 
-            this.button24.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button24.Dock = Wisej.Web.DockStyle.Fill;
-            this.button24.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button24.Location = new System.Drawing.Point(623, 59);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(50, 22);
-            this.button24.TabIndex = 88;
-            this.button24.Text = "×";
-            // 
-            // button25
-            // 
-            this.button25.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button25.Dock = Wisej.Web.DockStyle.Fill;
-            this.button25.Location = new System.Drawing.Point(905, 59);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(50, 22);
-            this.button25.TabIndex = 89;
-            this.button25.Text = "✓";
-            // 
-            // button26
-            // 
-            this.button26.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button26.Dock = Wisej.Web.DockStyle.Fill;
-            this.button26.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button26.Location = new System.Drawing.Point(961, 59);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(54, 22);
-            this.button26.TabIndex = 90;
-            this.button26.Text = "×";
-            // 
-            // button27
-            // 
-            this.button27.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button27.Dock = Wisej.Web.DockStyle.Fill;
-            this.button27.Location = new System.Drawing.Point(229, 87);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(50, 22);
-            this.button27.TabIndex = 91;
-            this.button27.Text = "✓";
-            // 
-            // button28
-            // 
-            this.button28.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button28.Dock = Wisej.Web.DockStyle.Fill;
-            this.button28.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button28.Location = new System.Drawing.Point(285, 87);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(50, 22);
-            this.button28.TabIndex = 92;
-            this.button28.Text = "×";
-            // 
-            // button29
-            // 
-            this.button29.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button29.Dock = Wisej.Web.DockStyle.Fill;
-            this.button29.Location = new System.Drawing.Point(567, 87);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(50, 22);
-            this.button29.TabIndex = 93;
-            this.button29.Text = "✓";
-            // 
-            // button30
-            // 
-            this.button30.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button30.Dock = Wisej.Web.DockStyle.Fill;
-            this.button30.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button30.Location = new System.Drawing.Point(623, 87);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(50, 22);
-            this.button30.TabIndex = 94;
-            this.button30.Text = "×";
-            // 
-            // button31
-            // 
-            this.button31.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button31.Dock = Wisej.Web.DockStyle.Fill;
-            this.button31.Location = new System.Drawing.Point(905, 87);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(50, 22);
-            this.button31.TabIndex = 95;
-            this.button31.Text = "✓";
-            // 
-            // button32
-            // 
-            this.button32.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button32.Dock = Wisej.Web.DockStyle.Fill;
-            this.button32.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button32.Location = new System.Drawing.Point(961, 87);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(54, 22);
-            this.button32.TabIndex = 96;
-            this.button32.Text = "×";
-            // 
-            // button33
-            // 
-            this.button33.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button33.Dock = Wisej.Web.DockStyle.Fill;
-            this.button33.Location = new System.Drawing.Point(229, 115);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(50, 22);
-            this.button33.TabIndex = 97;
-            this.button33.Text = "✓";
-            // 
-            // button34
-            // 
-            this.button34.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button34.Dock = Wisej.Web.DockStyle.Fill;
-            this.button34.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button34.Location = new System.Drawing.Point(285, 115);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(50, 22);
-            this.button34.TabIndex = 98;
-            this.button34.Text = "×";
-            // 
-            // button35
-            // 
-            this.button35.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button35.Dock = Wisej.Web.DockStyle.Fill;
-            this.button35.Location = new System.Drawing.Point(567, 115);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(50, 22);
-            this.button35.TabIndex = 99;
-            this.button35.Text = "✓";
-            // 
-            // button36
-            // 
-            this.button36.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button36.Dock = Wisej.Web.DockStyle.Fill;
-            this.button36.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button36.Location = new System.Drawing.Point(623, 115);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(50, 22);
-            this.button36.TabIndex = 100;
-            this.button36.Text = "×";
-            // 
-            // button37
-            // 
-            this.button37.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button37.Dock = Wisej.Web.DockStyle.Fill;
-            this.button37.Location = new System.Drawing.Point(905, 115);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(50, 22);
-            this.button37.TabIndex = 101;
-            this.button37.Text = "✓";
-            // 
-            // button38
-            // 
-            this.button38.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button38.Dock = Wisej.Web.DockStyle.Fill;
-            this.button38.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button38.Location = new System.Drawing.Point(961, 115);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(54, 22);
-            this.button38.TabIndex = 102;
-            this.button38.Text = "×";
-            // 
-            // button39
-            // 
-            this.button39.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button39.Dock = Wisej.Web.DockStyle.Fill;
-            this.button39.Location = new System.Drawing.Point(229, 143);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(50, 22);
-            this.button39.TabIndex = 103;
-            this.button39.Text = "✓";
-            // 
-            // button40
-            // 
-            this.button40.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button40.Dock = Wisej.Web.DockStyle.Fill;
-            this.button40.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button40.Location = new System.Drawing.Point(285, 143);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(50, 22);
-            this.button40.TabIndex = 104;
-            this.button40.Text = "×";
-            // 
-            // button41
-            // 
-            this.button41.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button41.Dock = Wisej.Web.DockStyle.Fill;
-            this.button41.Location = new System.Drawing.Point(567, 143);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(50, 22);
-            this.button41.TabIndex = 105;
-            this.button41.Text = "✓";
-            // 
-            // button42
-            // 
-            this.button42.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button42.Dock = Wisej.Web.DockStyle.Fill;
-            this.button42.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button42.Location = new System.Drawing.Point(623, 143);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(50, 22);
-            this.button42.TabIndex = 106;
-            this.button42.Text = "×";
-            // 
-            // button43
-            // 
-            this.button43.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button43.Dock = Wisej.Web.DockStyle.Fill;
-            this.button43.Location = new System.Drawing.Point(905, 143);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(50, 22);
-            this.button43.TabIndex = 107;
-            this.button43.Text = "✓";
-            // 
-            // button44
-            // 
-            this.button44.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button44.Dock = Wisej.Web.DockStyle.Fill;
-            this.button44.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button44.Location = new System.Drawing.Point(961, 143);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(54, 22);
-            this.button44.TabIndex = 108;
-            this.button44.Text = "×";
-            // 
-            // button45
-            // 
-            this.button45.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button45.Dock = Wisej.Web.DockStyle.Fill;
-            this.button45.Location = new System.Drawing.Point(229, 171);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(50, 25);
-            this.button45.TabIndex = 109;
-            this.button45.Text = "✓";
-            // 
-            // button46
-            // 
-            this.button46.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button46.Dock = Wisej.Web.DockStyle.Fill;
-            this.button46.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button46.Location = new System.Drawing.Point(285, 171);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(50, 25);
-            this.button46.TabIndex = 110;
-            this.button46.Text = "×";
-            // 
-            // button47
-            // 
-            this.button47.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button47.Dock = Wisej.Web.DockStyle.Fill;
-            this.button47.Location = new System.Drawing.Point(567, 171);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(50, 25);
-            this.button47.TabIndex = 111;
-            this.button47.Text = "✓";
-            // 
-            // button48
-            // 
-            this.button48.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button48.Dock = Wisej.Web.DockStyle.Fill;
-            this.button48.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button48.Location = new System.Drawing.Point(623, 171);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(50, 25);
-            this.button48.TabIndex = 112;
-            this.button48.Text = "×";
-            // 
-            // button49
-            // 
-            this.button49.BackColor = System.Drawing.Color.FromName("@switchOn");
-            this.button49.Dock = Wisej.Web.DockStyle.Fill;
-            this.button49.Location = new System.Drawing.Point(905, 171);
-            this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(50, 25);
-            this.button49.TabIndex = 113;
-            this.button49.Text = "✓";
-            // 
-            // button50
-            // 
-            this.button50.BackColor = System.Drawing.Color.FromName("@invalid");
-            this.button50.Dock = Wisej.Web.DockStyle.Fill;
-            this.button50.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button50.Location = new System.Drawing.Point(961, 171);
-            this.button50.Name = "button50";
-            this.button50.Size = new System.Drawing.Size(54, 25);
-            this.button50.TabIndex = 114;
-            this.button50.Text = "×";
-            // 
-            // tabDatasheetRun
-            // 
-            this.tabDatasheetRun.Controls.Add(this.tableLayoutPanel20);
-            this.tabDatasheetRun.Location = new System.Drawing.Point(0, 35);
-            this.tabDatasheetRun.Name = "tabDatasheetRun";
-            this.tabDatasheetRun.Size = new System.Drawing.Size(1212, 615);
-            this.tabDatasheetRun.Text = "Run";
             // 
             // tableLayoutPanel15
             // 
@@ -1767,8 +563,8 @@ namespace LinkedList
             this.tableLayoutPanel16.ColumnCount = 2;
             this.tableLayoutPanel16.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 90F));
             this.tableLayoutPanel16.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 10F));
-            this.tableLayoutPanel16.Controls.Add(this.tableLayoutPanel17, 0, 0);
             this.tableLayoutPanel16.Controls.Add(this.tableLayoutPanel18, 1, 0);
+            this.tableLayoutPanel16.Controls.Add(this.tableLayoutPanel17, 0, 0);
             this.tableLayoutPanel16.Dock = Wisej.Web.DockStyle.Fill;
             this.tableLayoutPanel16.Location = new System.Drawing.Point(33, 156);
             this.tableLayoutPanel16.Name = "tableLayoutPanel16";
@@ -1776,6 +572,59 @@ namespace LinkedList
             this.tableLayoutPanel16.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 50F));
             this.tableLayoutPanel16.Size = new System.Drawing.Size(1145, 439);
             this.tableLayoutPanel16.TabIndex = 1;
+            // 
+            // tableLayoutPanel18
+            // 
+            this.tableLayoutPanel18.ColumnCount = 1;
+            this.tableLayoutPanel18.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel18.Controls.Add(this.tableLayoutPanel30, 0, 0);
+            this.tableLayoutPanel18.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel18.Location = new System.Drawing.Point(1033, 3);
+            this.tableLayoutPanel18.Name = "tableLayoutPanel18";
+            this.tableLayoutPanel18.RowCount = 1;
+            this.tableLayoutPanel18.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel18.Size = new System.Drawing.Size(109, 433);
+            this.tableLayoutPanel18.TabIndex = 5;
+            // 
+            // tableLayoutPanel30
+            // 
+            this.tableLayoutPanel30.BorderStyle = Wisej.Web.BorderStyle.Solid;
+            this.tableLayoutPanel30.ColumnCount = 1;
+            this.tableLayoutPanel30.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel30.Controls.Add(this.btnInfoHome, 0, 3);
+            this.tableLayoutPanel30.Controls.Add(this.btnInfoNext, 0, 4);
+            this.tableLayoutPanel30.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel30.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel30.Name = "tableLayoutPanel30";
+            this.tableLayoutPanel30.RowCount = 5;
+            this.tableLayoutPanel30.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel30.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel30.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel30.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel30.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel30.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Absolute, 20F));
+            this.tableLayoutPanel30.Size = new System.Drawing.Size(103, 427);
+            this.tableLayoutPanel30.TabIndex = 4;
+            // 
+            // btnInfoHome
+            // 
+            this.btnInfoHome.Dock = Wisej.Web.DockStyle.Fill;
+            this.btnInfoHome.Location = new System.Drawing.Point(3, 258);
+            this.btnInfoHome.Name = "btnInfoHome";
+            this.btnInfoHome.Size = new System.Drawing.Size(95, 79);
+            this.btnInfoHome.TabIndex = 1;
+            this.btnInfoHome.Text = "Home";
+            this.btnInfoHome.Click += new System.EventHandler(this.btnInfoHome_Click);
+            // 
+            // btnInfoNext
+            // 
+            this.btnInfoNext.Dock = Wisej.Web.DockStyle.Fill;
+            this.btnInfoNext.Location = new System.Drawing.Point(3, 343);
+            this.btnInfoNext.Name = "btnInfoNext";
+            this.btnInfoNext.Size = new System.Drawing.Size(95, 79);
+            this.btnInfoNext.TabIndex = 0;
+            this.btnInfoNext.Text = "Next";
+            this.btnInfoNext.Click += new System.EventHandler(this.btnInfoNext_Click);
             // 
             // tableLayoutPanel17
             // 
@@ -2295,44 +1144,6 @@ namespace LinkedList
             this.textBox25.Size = new System.Drawing.Size(250, 30);
             this.textBox25.TabIndex = 30;
             // 
-            // tableLayoutPanel18
-            // 
-            this.tableLayoutPanel18.BorderStyle = Wisej.Web.BorderStyle.Solid;
-            this.tableLayoutPanel18.ColumnCount = 1;
-            this.tableLayoutPanel18.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
-            this.tableLayoutPanel18.Controls.Add(this.button51, 0, 3);
-            this.tableLayoutPanel18.Controls.Add(this.button52, 0, 4);
-            this.tableLayoutPanel18.Dock = Wisej.Web.DockStyle.Fill;
-            this.tableLayoutPanel18.Location = new System.Drawing.Point(1033, 3);
-            this.tableLayoutPanel18.Name = "tableLayoutPanel18";
-            this.tableLayoutPanel18.RowCount = 5;
-            this.tableLayoutPanel18.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel18.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel18.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel18.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel18.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel18.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Absolute, 20F));
-            this.tableLayoutPanel18.Size = new System.Drawing.Size(109, 433);
-            this.tableLayoutPanel18.TabIndex = 3;
-            // 
-            // button51
-            // 
-            this.button51.Dock = Wisej.Web.DockStyle.Fill;
-            this.button51.Location = new System.Drawing.Point(3, 261);
-            this.button51.Name = "button51";
-            this.button51.Size = new System.Drawing.Size(101, 80);
-            this.button51.TabIndex = 1;
-            this.button51.Text = "Home";
-            // 
-            // button52
-            // 
-            this.button52.Dock = Wisej.Web.DockStyle.Fill;
-            this.button52.Location = new System.Drawing.Point(3, 347);
-            this.button52.Name = "button52";
-            this.button52.Size = new System.Drawing.Size(101, 81);
-            this.button52.TabIndex = 0;
-            this.button52.Text = "Next";
-            // 
             // tableLayoutPanel19
             // 
             this.tableLayoutPanel19.ColumnCount = 1;
@@ -2374,6 +1185,14 @@ namespace LinkedList
             this.label62.Text = "Welding Test Datasheet Information";
             this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // tabDatasheetRun
+            // 
+            this.tabDatasheetRun.Controls.Add(this.tableLayoutPanel20);
+            this.tabDatasheetRun.Location = new System.Drawing.Point(0, 35);
+            this.tabDatasheetRun.Name = "tabDatasheetRun";
+            this.tabDatasheetRun.Size = new System.Drawing.Size(1212, 615);
+            this.tabDatasheetRun.Text = "Run";
+            // 
             // tableLayoutPanel20
             // 
             this.tableLayoutPanel20.ColumnCount = 3;
@@ -2399,8 +1218,8 @@ namespace LinkedList
             this.tableLayoutPanel21.ColumnCount = 2;
             this.tableLayoutPanel21.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 90F));
             this.tableLayoutPanel21.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 10F));
-            this.tableLayoutPanel21.Controls.Add(this.tableLayoutPanel22, 0, 0);
             this.tableLayoutPanel21.Controls.Add(this.tableLayoutPanel23, 1, 0);
+            this.tableLayoutPanel21.Controls.Add(this.tableLayoutPanel22, 0, 0);
             this.tableLayoutPanel21.Dock = Wisej.Web.DockStyle.Fill;
             this.tableLayoutPanel21.Location = new System.Drawing.Point(33, 156);
             this.tableLayoutPanel21.Name = "tableLayoutPanel21";
@@ -2408,6 +1227,68 @@ namespace LinkedList
             this.tableLayoutPanel21.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 50F));
             this.tableLayoutPanel21.Size = new System.Drawing.Size(1145, 439);
             this.tableLayoutPanel21.TabIndex = 1;
+            // 
+            // tableLayoutPanel23
+            // 
+            this.tableLayoutPanel23.ColumnCount = 1;
+            this.tableLayoutPanel23.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel23.Controls.Add(this.tableLayoutPanel31, 0, 0);
+            this.tableLayoutPanel23.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel23.Location = new System.Drawing.Point(1033, 3);
+            this.tableLayoutPanel23.Name = "tableLayoutPanel23";
+            this.tableLayoutPanel23.RowCount = 1;
+            this.tableLayoutPanel23.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel23.Size = new System.Drawing.Size(109, 433);
+            this.tableLayoutPanel23.TabIndex = 5;
+            // 
+            // tableLayoutPanel31
+            // 
+            this.tableLayoutPanel31.BorderStyle = Wisej.Web.BorderStyle.Solid;
+            this.tableLayoutPanel31.ColumnCount = 1;
+            this.tableLayoutPanel31.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel31.Controls.Add(this.button53, 0, 1);
+            this.tableLayoutPanel31.Controls.Add(this.btnRunHome, 0, 3);
+            this.tableLayoutPanel31.Controls.Add(this.button55, 0, 4);
+            this.tableLayoutPanel31.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel31.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel31.Name = "tableLayoutPanel31";
+            this.tableLayoutPanel31.RowCount = 5;
+            this.tableLayoutPanel31.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel31.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel31.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel31.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel31.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel31.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Absolute, 20F));
+            this.tableLayoutPanel31.Size = new System.Drawing.Size(103, 427);
+            this.tableLayoutPanel31.TabIndex = 4;
+            // 
+            // button53
+            // 
+            this.button53.Dock = Wisej.Web.DockStyle.Fill;
+            this.button53.Location = new System.Drawing.Point(3, 88);
+            this.button53.Name = "button53";
+            this.button53.Size = new System.Drawing.Size(95, 79);
+            this.button53.TabIndex = 2;
+            this.button53.Text = "Add Run";
+            // 
+            // btnRunHome
+            // 
+            this.btnRunHome.Dock = Wisej.Web.DockStyle.Fill;
+            this.btnRunHome.Location = new System.Drawing.Point(3, 258);
+            this.btnRunHome.Name = "btnRunHome";
+            this.btnRunHome.Size = new System.Drawing.Size(95, 79);
+            this.btnRunHome.TabIndex = 1;
+            this.btnRunHome.Text = "Home";
+            this.btnRunHome.Click += new System.EventHandler(this.btnRunHome_Click);
+            // 
+            // button55
+            // 
+            this.button55.Dock = Wisej.Web.DockStyle.Fill;
+            this.button55.Location = new System.Drawing.Point(3, 343);
+            this.button55.Name = "button55";
+            this.button55.Size = new System.Drawing.Size(95, 79);
+            this.button55.TabIndex = 0;
+            this.button55.Text = "Next";
             // 
             // tableLayoutPanel22
             // 
@@ -2823,54 +1704,6 @@ namespace LinkedList
             this.textBox48.TabIndex = 23;
             this.textBox48.TextAlign = Wisej.Web.HorizontalAlignment.Center;
             // 
-            // tableLayoutPanel23
-            // 
-            this.tableLayoutPanel23.BorderStyle = Wisej.Web.BorderStyle.Solid;
-            this.tableLayoutPanel23.ColumnCount = 1;
-            this.tableLayoutPanel23.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
-            this.tableLayoutPanel23.Controls.Add(this.button53, 0, 1);
-            this.tableLayoutPanel23.Controls.Add(this.button54, 0, 3);
-            this.tableLayoutPanel23.Controls.Add(this.button55, 0, 4);
-            this.tableLayoutPanel23.Dock = Wisej.Web.DockStyle.Fill;
-            this.tableLayoutPanel23.Location = new System.Drawing.Point(1033, 3);
-            this.tableLayoutPanel23.Name = "tableLayoutPanel23";
-            this.tableLayoutPanel23.RowCount = 5;
-            this.tableLayoutPanel23.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel23.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel23.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel23.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel23.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
-            this.tableLayoutPanel23.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Absolute, 20F));
-            this.tableLayoutPanel23.Size = new System.Drawing.Size(109, 433);
-            this.tableLayoutPanel23.TabIndex = 3;
-            // 
-            // button53
-            // 
-            this.button53.Dock = Wisej.Web.DockStyle.Fill;
-            this.button53.Location = new System.Drawing.Point(3, 89);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(101, 80);
-            this.button53.TabIndex = 2;
-            this.button53.Text = "Add Run";
-            // 
-            // button54
-            // 
-            this.button54.Dock = Wisej.Web.DockStyle.Fill;
-            this.button54.Location = new System.Drawing.Point(3, 261);
-            this.button54.Name = "button54";
-            this.button54.Size = new System.Drawing.Size(101, 80);
-            this.button54.TabIndex = 1;
-            this.button54.Text = "Home";
-            // 
-            // button55
-            // 
-            this.button55.Dock = Wisej.Web.DockStyle.Fill;
-            this.button55.Location = new System.Drawing.Point(3, 347);
-            this.button55.Name = "button55";
-            this.button55.Size = new System.Drawing.Size(101, 81);
-            this.button55.TabIndex = 0;
-            this.button55.Text = "Next";
-            // 
             // tableLayoutPanel24
             // 
             this.tableLayoutPanel24.ColumnCount = 1;
@@ -2912,6 +1745,1711 @@ namespace LinkedList
             this.label78.Text = "Welding Test Datasheet Parameters";
             this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // tabInspection
+            // 
+            this.tabInspection.Controls.Add(this.tableLayoutPanel5);
+            this.tabInspection.Location = new System.Drawing.Point(0, 35);
+            this.tabInspection.Name = "tabInspection";
+            this.tabInspection.Size = new System.Drawing.Size(1212, 615);
+            this.tabInspection.Text = "Visual Inspection";
+            // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.ColumnCount = 3;
+            this.tableLayoutPanel5.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 2.5F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 95F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 2.5F));
+            this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel6, 1, 3);
+            this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel9, 1, 1);
+            this.tableLayoutPanel5.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 5;
+            this.tableLayoutPanel5.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 2.5F));
+            this.tableLayoutPanel5.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel5.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 2.5F));
+            this.tableLayoutPanel5.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 72.5F));
+            this.tableLayoutPanel5.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 2.5F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(1212, 615);
+            this.tableLayoutPanel5.TabIndex = 1;
+            // 
+            // tableLayoutPanel6
+            // 
+            this.tableLayoutPanel6.ColumnCount = 2;
+            this.tableLayoutPanel6.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 90F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 10F));
+            this.tableLayoutPanel6.Controls.Add(this.tableLayoutPanel7, 0, 0);
+            this.tableLayoutPanel6.Controls.Add(this.tableLayoutPanel8, 1, 0);
+            this.tableLayoutPanel6.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(33, 156);
+            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
+            this.tableLayoutPanel6.RowCount = 1;
+            this.tableLayoutPanel6.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(1145, 439);
+            this.tableLayoutPanel6.TabIndex = 1;
+            // 
+            // tableLayoutPanel7
+            // 
+            this.tableLayoutPanel7.ColumnCount = 1;
+            this.tableLayoutPanel7.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel7.Controls.Add(this.tableLayoutPanel32, 0, 1);
+            this.tableLayoutPanel7.Controls.Add(this.tableLayoutPanel14, 0, 2);
+            this.tableLayoutPanel7.Controls.Add(this.tableLayoutPanel13, 0, 0);
+            this.tableLayoutPanel7.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel7.Name = "tableLayoutPanel7";
+            this.tableLayoutPanel7.RowCount = 3;
+            this.tableLayoutPanel7.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 47F));
+            this.tableLayoutPanel7.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 6F));
+            this.tableLayoutPanel7.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 47F));
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(1024, 433);
+            this.tableLayoutPanel7.TabIndex = 4;
+            // 
+            // tableLayoutPanel32
+            // 
+            this.tableLayoutPanel32.ColumnCount = 1;
+            this.tableLayoutPanel32.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel32.Controls.Add(this.label7, 0, 0);
+            this.tableLayoutPanel32.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel32.Location = new System.Drawing.Point(3, 206);
+            this.tableLayoutPanel32.Name = "tableLayoutPanel32";
+            this.tableLayoutPanel32.RowCount = 1;
+            this.tableLayoutPanel32.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel32.Size = new System.Drawing.Size(1018, 19);
+            this.tableLayoutPanel32.TabIndex = 53;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromName("@focusFrame");
+            this.label7.BorderStyle = Wisej.Web.BorderStyle.Solid;
+            this.label7.Dock = Wisej.Web.DockStyle.Fill;
+            this.label7.Location = new System.Drawing.Point(3, 3);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(1012, 13);
+            this.label7.TabIndex = 52;
+            this.label7.Text = "Inspection results";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel14
+            // 
+            this.tableLayoutPanel14.ColumnCount = 9;
+            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 5F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 5F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 5F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 5F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 5F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 5F));
+            this.tableLayoutPanel14.Controls.Add(this.button50, 8, 6);
+            this.tableLayoutPanel14.Controls.Add(this.button49, 7, 6);
+            this.tableLayoutPanel14.Controls.Add(this.button48, 5, 6);
+            this.tableLayoutPanel14.Controls.Add(this.button47, 4, 6);
+            this.tableLayoutPanel14.Controls.Add(this.button46, 2, 6);
+            this.tableLayoutPanel14.Controls.Add(this.button45, 1, 6);
+            this.tableLayoutPanel14.Controls.Add(this.button44, 8, 5);
+            this.tableLayoutPanel14.Controls.Add(this.button43, 7, 5);
+            this.tableLayoutPanel14.Controls.Add(this.button42, 5, 5);
+            this.tableLayoutPanel14.Controls.Add(this.button41, 4, 5);
+            this.tableLayoutPanel14.Controls.Add(this.button40, 2, 5);
+            this.tableLayoutPanel14.Controls.Add(this.button39, 1, 5);
+            this.tableLayoutPanel14.Controls.Add(this.button38, 8, 4);
+            this.tableLayoutPanel14.Controls.Add(this.button37, 7, 4);
+            this.tableLayoutPanel14.Controls.Add(this.button36, 5, 4);
+            this.tableLayoutPanel14.Controls.Add(this.button35, 4, 4);
+            this.tableLayoutPanel14.Controls.Add(this.button34, 2, 4);
+            this.tableLayoutPanel14.Controls.Add(this.button33, 1, 4);
+            this.tableLayoutPanel14.Controls.Add(this.button32, 8, 3);
+            this.tableLayoutPanel14.Controls.Add(this.button31, 7, 3);
+            this.tableLayoutPanel14.Controls.Add(this.button30, 5, 3);
+            this.tableLayoutPanel14.Controls.Add(this.button29, 4, 3);
+            this.tableLayoutPanel14.Controls.Add(this.button28, 2, 3);
+            this.tableLayoutPanel14.Controls.Add(this.button27, 1, 3);
+            this.tableLayoutPanel14.Controls.Add(this.button26, 8, 2);
+            this.tableLayoutPanel14.Controls.Add(this.button25, 7, 2);
+            this.tableLayoutPanel14.Controls.Add(this.button24, 5, 2);
+            this.tableLayoutPanel14.Controls.Add(this.button23, 4, 2);
+            this.tableLayoutPanel14.Controls.Add(this.button22, 2, 2);
+            this.tableLayoutPanel14.Controls.Add(this.button21, 1, 2);
+            this.tableLayoutPanel14.Controls.Add(this.button20, 8, 1);
+            this.tableLayoutPanel14.Controls.Add(this.button19, 7, 1);
+            this.tableLayoutPanel14.Controls.Add(this.button18, 5, 1);
+            this.tableLayoutPanel14.Controls.Add(this.button17, 4, 1);
+            this.tableLayoutPanel14.Controls.Add(this.button16, 2, 1);
+            this.tableLayoutPanel14.Controls.Add(this.button15, 8, 0);
+            this.tableLayoutPanel14.Controls.Add(this.button14, 7, 0);
+            this.tableLayoutPanel14.Controls.Add(this.button13, 5, 0);
+            this.tableLayoutPanel14.Controls.Add(this.button12, 4, 0);
+            this.tableLayoutPanel14.Controls.Add(this.button11, 2, 0);
+            this.tableLayoutPanel14.Controls.Add(this.button10, 1, 1);
+            this.tableLayoutPanel14.Controls.Add(this.button9, 1, 0);
+            this.tableLayoutPanel14.Controls.Add(this.label17, 0, 0);
+            this.tableLayoutPanel14.Controls.Add(this.label11, 0, 1);
+            this.tableLayoutPanel14.Controls.Add(this.label18, 0, 2);
+            this.tableLayoutPanel14.Controls.Add(this.label20, 0, 3);
+            this.tableLayoutPanel14.Controls.Add(this.label8, 0, 4);
+            this.tableLayoutPanel14.Controls.Add(this.label12, 0, 5);
+            this.tableLayoutPanel14.Controls.Add(this.label19, 0, 6);
+            this.tableLayoutPanel14.Controls.Add(this.label23, 3, 0);
+            this.tableLayoutPanel14.Controls.Add(this.label21, 3, 1);
+            this.tableLayoutPanel14.Controls.Add(this.label24, 3, 2);
+            this.tableLayoutPanel14.Controls.Add(this.label25, 3, 3);
+            this.tableLayoutPanel14.Controls.Add(this.label22, 3, 4);
+            this.tableLayoutPanel14.Controls.Add(this.label26, 3, 5);
+            this.tableLayoutPanel14.Controls.Add(this.label27, 3, 6);
+            this.tableLayoutPanel14.Controls.Add(this.label33, 6, 5);
+            this.tableLayoutPanel14.Controls.Add(this.label29, 6, 4);
+            this.tableLayoutPanel14.Controls.Add(this.label28, 6, 6);
+            this.tableLayoutPanel14.Controls.Add(this.label32, 6, 3);
+            this.tableLayoutPanel14.Controls.Add(this.label34, 6, 2);
+            this.tableLayoutPanel14.Controls.Add(this.label36, 6, 1);
+            this.tableLayoutPanel14.Controls.Add(this.label30, 6, 0);
+            this.tableLayoutPanel14.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel14.Location = new System.Drawing.Point(3, 231);
+            this.tableLayoutPanel14.Name = "tableLayoutPanel14";
+            this.tableLayoutPanel14.RowCount = 7;
+            this.tableLayoutPanel14.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel14.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel14.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel14.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel14.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel14.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel14.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel14.Size = new System.Drawing.Size(1018, 199);
+            this.tableLayoutPanel14.TabIndex = 52;
+            // 
+            // button50
+            // 
+            this.button50.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button50.Dock = Wisej.Web.DockStyle.Fill;
+            this.button50.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button50.Location = new System.Drawing.Point(961, 171);
+            this.button50.Name = "button50";
+            this.button50.Size = new System.Drawing.Size(54, 25);
+            this.button50.TabIndex = 114;
+            this.button50.Text = "×";
+            // 
+            // button49
+            // 
+            this.button49.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button49.Dock = Wisej.Web.DockStyle.Fill;
+            this.button49.Location = new System.Drawing.Point(905, 171);
+            this.button49.Name = "button49";
+            this.button49.Size = new System.Drawing.Size(50, 25);
+            this.button49.TabIndex = 113;
+            this.button49.Text = "✓";
+            // 
+            // button48
+            // 
+            this.button48.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button48.Dock = Wisej.Web.DockStyle.Fill;
+            this.button48.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button48.Location = new System.Drawing.Point(623, 171);
+            this.button48.Name = "button48";
+            this.button48.Size = new System.Drawing.Size(50, 25);
+            this.button48.TabIndex = 112;
+            this.button48.Text = "×";
+            // 
+            // button47
+            // 
+            this.button47.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button47.Dock = Wisej.Web.DockStyle.Fill;
+            this.button47.Location = new System.Drawing.Point(567, 171);
+            this.button47.Name = "button47";
+            this.button47.Size = new System.Drawing.Size(50, 25);
+            this.button47.TabIndex = 111;
+            this.button47.Text = "✓";
+            // 
+            // button46
+            // 
+            this.button46.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button46.Dock = Wisej.Web.DockStyle.Fill;
+            this.button46.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button46.Location = new System.Drawing.Point(285, 171);
+            this.button46.Name = "button46";
+            this.button46.Size = new System.Drawing.Size(50, 25);
+            this.button46.TabIndex = 110;
+            this.button46.Text = "×";
+            // 
+            // button45
+            // 
+            this.button45.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button45.Dock = Wisej.Web.DockStyle.Fill;
+            this.button45.Location = new System.Drawing.Point(229, 171);
+            this.button45.Name = "button45";
+            this.button45.Size = new System.Drawing.Size(50, 25);
+            this.button45.TabIndex = 109;
+            this.button45.Text = "✓";
+            // 
+            // button44
+            // 
+            this.button44.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button44.Dock = Wisej.Web.DockStyle.Fill;
+            this.button44.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button44.Location = new System.Drawing.Point(961, 143);
+            this.button44.Name = "button44";
+            this.button44.Size = new System.Drawing.Size(54, 22);
+            this.button44.TabIndex = 108;
+            this.button44.Text = "×";
+            // 
+            // button43
+            // 
+            this.button43.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button43.Dock = Wisej.Web.DockStyle.Fill;
+            this.button43.Location = new System.Drawing.Point(905, 143);
+            this.button43.Name = "button43";
+            this.button43.Size = new System.Drawing.Size(50, 22);
+            this.button43.TabIndex = 107;
+            this.button43.Text = "✓";
+            // 
+            // button42
+            // 
+            this.button42.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button42.Dock = Wisej.Web.DockStyle.Fill;
+            this.button42.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button42.Location = new System.Drawing.Point(623, 143);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(50, 22);
+            this.button42.TabIndex = 106;
+            this.button42.Text = "×";
+            // 
+            // button41
+            // 
+            this.button41.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button41.Dock = Wisej.Web.DockStyle.Fill;
+            this.button41.Location = new System.Drawing.Point(567, 143);
+            this.button41.Name = "button41";
+            this.button41.Size = new System.Drawing.Size(50, 22);
+            this.button41.TabIndex = 105;
+            this.button41.Text = "✓";
+            // 
+            // button40
+            // 
+            this.button40.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button40.Dock = Wisej.Web.DockStyle.Fill;
+            this.button40.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button40.Location = new System.Drawing.Point(285, 143);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(50, 22);
+            this.button40.TabIndex = 104;
+            this.button40.Text = "×";
+            // 
+            // button39
+            // 
+            this.button39.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button39.Dock = Wisej.Web.DockStyle.Fill;
+            this.button39.Location = new System.Drawing.Point(229, 143);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(50, 22);
+            this.button39.TabIndex = 103;
+            this.button39.Text = "✓";
+            // 
+            // button38
+            // 
+            this.button38.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button38.Dock = Wisej.Web.DockStyle.Fill;
+            this.button38.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button38.Location = new System.Drawing.Point(961, 115);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(54, 22);
+            this.button38.TabIndex = 102;
+            this.button38.Text = "×";
+            // 
+            // button37
+            // 
+            this.button37.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button37.Dock = Wisej.Web.DockStyle.Fill;
+            this.button37.Location = new System.Drawing.Point(905, 115);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(50, 22);
+            this.button37.TabIndex = 101;
+            this.button37.Text = "✓";
+            // 
+            // button36
+            // 
+            this.button36.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button36.Dock = Wisej.Web.DockStyle.Fill;
+            this.button36.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button36.Location = new System.Drawing.Point(623, 115);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(50, 22);
+            this.button36.TabIndex = 100;
+            this.button36.Text = "×";
+            // 
+            // button35
+            // 
+            this.button35.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button35.Dock = Wisej.Web.DockStyle.Fill;
+            this.button35.Location = new System.Drawing.Point(567, 115);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(50, 22);
+            this.button35.TabIndex = 99;
+            this.button35.Text = "✓";
+            // 
+            // button34
+            // 
+            this.button34.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button34.Dock = Wisej.Web.DockStyle.Fill;
+            this.button34.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button34.Location = new System.Drawing.Point(285, 115);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(50, 22);
+            this.button34.TabIndex = 98;
+            this.button34.Text = "×";
+            // 
+            // button33
+            // 
+            this.button33.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button33.Dock = Wisej.Web.DockStyle.Fill;
+            this.button33.Location = new System.Drawing.Point(229, 115);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(50, 22);
+            this.button33.TabIndex = 97;
+            this.button33.Text = "✓";
+            // 
+            // button32
+            // 
+            this.button32.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button32.Dock = Wisej.Web.DockStyle.Fill;
+            this.button32.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button32.Location = new System.Drawing.Point(961, 87);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(54, 22);
+            this.button32.TabIndex = 96;
+            this.button32.Text = "×";
+            // 
+            // button31
+            // 
+            this.button31.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button31.Dock = Wisej.Web.DockStyle.Fill;
+            this.button31.Location = new System.Drawing.Point(905, 87);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(50, 22);
+            this.button31.TabIndex = 95;
+            this.button31.Text = "✓";
+            // 
+            // button30
+            // 
+            this.button30.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button30.Dock = Wisej.Web.DockStyle.Fill;
+            this.button30.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button30.Location = new System.Drawing.Point(623, 87);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(50, 22);
+            this.button30.TabIndex = 94;
+            this.button30.Text = "×";
+            // 
+            // button29
+            // 
+            this.button29.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button29.Dock = Wisej.Web.DockStyle.Fill;
+            this.button29.Location = new System.Drawing.Point(567, 87);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(50, 22);
+            this.button29.TabIndex = 93;
+            this.button29.Text = "✓";
+            // 
+            // button28
+            // 
+            this.button28.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button28.Dock = Wisej.Web.DockStyle.Fill;
+            this.button28.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button28.Location = new System.Drawing.Point(285, 87);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(50, 22);
+            this.button28.TabIndex = 92;
+            this.button28.Text = "×";
+            // 
+            // button27
+            // 
+            this.button27.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button27.Dock = Wisej.Web.DockStyle.Fill;
+            this.button27.Location = new System.Drawing.Point(229, 87);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(50, 22);
+            this.button27.TabIndex = 91;
+            this.button27.Text = "✓";
+            // 
+            // button26
+            // 
+            this.button26.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button26.Dock = Wisej.Web.DockStyle.Fill;
+            this.button26.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button26.Location = new System.Drawing.Point(961, 59);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(54, 22);
+            this.button26.TabIndex = 90;
+            this.button26.Text = "×";
+            // 
+            // button25
+            // 
+            this.button25.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button25.Dock = Wisej.Web.DockStyle.Fill;
+            this.button25.Location = new System.Drawing.Point(905, 59);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(50, 22);
+            this.button25.TabIndex = 89;
+            this.button25.Text = "✓";
+            // 
+            // button24
+            // 
+            this.button24.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button24.Dock = Wisej.Web.DockStyle.Fill;
+            this.button24.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button24.Location = new System.Drawing.Point(623, 59);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(50, 22);
+            this.button24.TabIndex = 88;
+            this.button24.Text = "×";
+            // 
+            // button23
+            // 
+            this.button23.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button23.Dock = Wisej.Web.DockStyle.Fill;
+            this.button23.Location = new System.Drawing.Point(567, 59);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(50, 22);
+            this.button23.TabIndex = 87;
+            this.button23.Text = "✓";
+            // 
+            // button22
+            // 
+            this.button22.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button22.Dock = Wisej.Web.DockStyle.Fill;
+            this.button22.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button22.Location = new System.Drawing.Point(285, 59);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(50, 22);
+            this.button22.TabIndex = 86;
+            this.button22.Text = "×";
+            // 
+            // button21
+            // 
+            this.button21.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button21.Dock = Wisej.Web.DockStyle.Fill;
+            this.button21.Location = new System.Drawing.Point(229, 59);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(50, 22);
+            this.button21.TabIndex = 85;
+            this.button21.Text = "✓";
+            // 
+            // button20
+            // 
+            this.button20.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button20.Dock = Wisej.Web.DockStyle.Fill;
+            this.button20.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button20.Location = new System.Drawing.Point(961, 31);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(54, 22);
+            this.button20.TabIndex = 84;
+            this.button20.Text = "×";
+            // 
+            // button19
+            // 
+            this.button19.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button19.Dock = Wisej.Web.DockStyle.Fill;
+            this.button19.Location = new System.Drawing.Point(905, 31);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(50, 22);
+            this.button19.TabIndex = 83;
+            this.button19.Text = "✓";
+            // 
+            // button18
+            // 
+            this.button18.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button18.Dock = Wisej.Web.DockStyle.Fill;
+            this.button18.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button18.Location = new System.Drawing.Point(623, 31);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(50, 22);
+            this.button18.TabIndex = 82;
+            this.button18.Text = "×";
+            // 
+            // button17
+            // 
+            this.button17.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button17.Dock = Wisej.Web.DockStyle.Fill;
+            this.button17.Location = new System.Drawing.Point(567, 31);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(50, 22);
+            this.button17.TabIndex = 81;
+            this.button17.Text = "✓";
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button16.Dock = Wisej.Web.DockStyle.Fill;
+            this.button16.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button16.Location = new System.Drawing.Point(285, 31);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(50, 22);
+            this.button16.TabIndex = 80;
+            this.button16.Text = "×";
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button15.Dock = Wisej.Web.DockStyle.Fill;
+            this.button15.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button15.Location = new System.Drawing.Point(961, 3);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(54, 22);
+            this.button15.TabIndex = 79;
+            this.button15.Text = "×";
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button14.Dock = Wisej.Web.DockStyle.Fill;
+            this.button14.Location = new System.Drawing.Point(905, 3);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(50, 22);
+            this.button14.TabIndex = 78;
+            this.button14.Text = "✓";
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button13.Dock = Wisej.Web.DockStyle.Fill;
+            this.button13.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button13.Location = new System.Drawing.Point(623, 3);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(50, 22);
+            this.button13.TabIndex = 77;
+            this.button13.Text = "×";
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button12.Dock = Wisej.Web.DockStyle.Fill;
+            this.button12.Location = new System.Drawing.Point(567, 3);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(50, 22);
+            this.button12.TabIndex = 76;
+            this.button12.Text = "✓";
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.FromName("@invalid");
+            this.button11.Dock = Wisej.Web.DockStyle.Fill;
+            this.button11.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button11.Location = new System.Drawing.Point(285, 3);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(50, 22);
+            this.button11.TabIndex = 75;
+            this.button11.Text = "×";
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button10.Dock = Wisej.Web.DockStyle.Fill;
+            this.button10.Location = new System.Drawing.Point(229, 31);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(50, 22);
+            this.button10.TabIndex = 74;
+            this.button10.Text = "✓";
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromName("@switchOn");
+            this.button9.Dock = Wisej.Web.DockStyle.Fill;
+            this.button9.Location = new System.Drawing.Point(229, 3);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(50, 22);
+            this.button9.TabIndex = 73;
+            this.button9.Text = "✓";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Dock = Wisej.Web.DockStyle.Fill;
+            this.label17.Location = new System.Drawing.Point(3, 3);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(220, 22);
+            this.label17.TabIndex = 55;
+            this.label17.Text = "Weld Identification";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Dock = Wisej.Web.DockStyle.Fill;
+            this.label11.Location = new System.Drawing.Point(3, 31);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(220, 22);
+            this.label11.TabIndex = 53;
+            this.label11.Text = "Welders Identification";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Dock = Wisej.Web.DockStyle.Fill;
+            this.label18.Location = new System.Drawing.Point(3, 59);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(220, 22);
+            this.label18.TabIndex = 56;
+            this.label18.Text = "Initial Inspection";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Dock = Wisej.Web.DockStyle.Fill;
+            this.label20.Location = new System.Drawing.Point(3, 87);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(220, 22);
+            this.label20.TabIndex = 58;
+            this.label20.Text = "Repair Weld Inspection";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Dock = Wisej.Web.DockStyle.Fill;
+            this.label8.Location = new System.Drawing.Point(3, 115);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(220, 22);
+            this.label8.TabIndex = 52;
+            this.label8.Text = "Final Inspection";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Dock = Wisej.Web.DockStyle.Fill;
+            this.label12.Location = new System.Drawing.Point(3, 143);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(220, 22);
+            this.label12.TabIndex = 54;
+            this.label12.Text = "Welding Procedure";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Dock = Wisej.Web.DockStyle.Fill;
+            this.label19.Location = new System.Drawing.Point(3, 171);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(220, 25);
+            this.label19.TabIndex = 57;
+            this.label19.Text = "Welder Qualification";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Dock = Wisej.Web.DockStyle.Fill;
+            this.label23.Location = new System.Drawing.Point(341, 3);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(220, 22);
+            this.label23.TabIndex = 61;
+            this.label23.Text = "Material Control";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Dock = Wisej.Web.DockStyle.Fill;
+            this.label21.Location = new System.Drawing.Point(341, 31);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(220, 22);
+            this.label21.TabIndex = 59;
+            this.label21.Text = "Weld Size / Profile";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Dock = Wisej.Web.DockStyle.Fill;
+            this.label24.Location = new System.Drawing.Point(341, 59);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(220, 22);
+            this.label24.TabIndex = 62;
+            this.label24.Text = "Weld Location";
+            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Dock = Wisej.Web.DockStyle.Fill;
+            this.label25.Location = new System.Drawing.Point(341, 87);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(220, 22);
+            this.label25.TabIndex = 63;
+            this.label25.Text = "Cracks";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Dock = Wisej.Web.DockStyle.Fill;
+            this.label22.Location = new System.Drawing.Point(341, 115);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(220, 22);
+            this.label22.TabIndex = 60;
+            this.label22.Text = "Incomplete Penetration";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Dock = Wisej.Web.DockStyle.Fill;
+            this.label26.Location = new System.Drawing.Point(341, 143);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(220, 22);
+            this.label26.TabIndex = 64;
+            this.label26.Text = "Incomplete Fusion";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Dock = Wisej.Web.DockStyle.Fill;
+            this.label27.Location = new System.Drawing.Point(341, 171);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(220, 25);
+            this.label27.TabIndex = 65;
+            this.label27.Text = "Porosity";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Dock = Wisej.Web.DockStyle.Fill;
+            this.label33.Location = new System.Drawing.Point(679, 143);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(220, 22);
+            this.label33.TabIndex = 70;
+            this.label33.Text = "Crater Cross Section";
+            this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Dock = Wisej.Web.DockStyle.Fill;
+            this.label29.Location = new System.Drawing.Point(679, 115);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(220, 22);
+            this.label29.TabIndex = 67;
+            this.label29.Text = "SuckBack";
+            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Dock = Wisej.Web.DockStyle.Fill;
+            this.label28.Location = new System.Drawing.Point(679, 171);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(220, 25);
+            this.label28.TabIndex = 66;
+            this.label28.Text = "Satisfactory";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Dock = Wisej.Web.DockStyle.Fill;
+            this.label32.Location = new System.Drawing.Point(679, 87);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(220, 22);
+            this.label32.TabIndex = 69;
+            this.label32.Text = "Weld Reinforcement";
+            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Dock = Wisej.Web.DockStyle.Fill;
+            this.label34.Location = new System.Drawing.Point(679, 59);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(220, 22);
+            this.label34.TabIndex = 71;
+            this.label34.Text = "Arc Strike";
+            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Dock = Wisej.Web.DockStyle.Fill;
+            this.label36.Location = new System.Drawing.Point(679, 31);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(220, 22);
+            this.label36.TabIndex = 72;
+            this.label36.Text = "Undercut";
+            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Dock = Wisej.Web.DockStyle.Fill;
+            this.label30.Location = new System.Drawing.Point(679, 3);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(220, 22);
+            this.label30.TabIndex = 68;
+            this.label30.Text = "Burn Through";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // tableLayoutPanel13
+            // 
+            this.tableLayoutPanel13.ColumnCount = 4;
+            this.tableLayoutPanel13.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 25F));
+            this.tableLayoutPanel13.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 25F));
+            this.tableLayoutPanel13.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 25F));
+            this.tableLayoutPanel13.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 25F));
+            this.tableLayoutPanel13.Controls.Add(this.textBox32, 3, 5);
+            this.tableLayoutPanel13.Controls.Add(this.textBox31, 3, 4);
+            this.tableLayoutPanel13.Controls.Add(this.textBox30, 3, 3);
+            this.tableLayoutPanel13.Controls.Add(this.textBox29, 3, 2);
+            this.tableLayoutPanel13.Controls.Add(this.textBox14, 3, 1);
+            this.tableLayoutPanel13.Controls.Add(this.textBox13, 3, 0);
+            this.tableLayoutPanel13.Controls.Add(this.textBox5, 1, 4);
+            this.tableLayoutPanel13.Controls.Add(this.textBox4, 1, 3);
+            this.tableLayoutPanel13.Controls.Add(this.textBox3, 1, 2);
+            this.tableLayoutPanel13.Controls.Add(this.textBox2, 1, 1);
+            this.tableLayoutPanel13.Controls.Add(this.textBox1, 1, 0);
+            this.tableLayoutPanel13.Controls.Add(this.label31, 2, 2);
+            this.tableLayoutPanel13.Controls.Add(this.label14, 2, 1);
+            this.tableLayoutPanel13.Controls.Add(this.label3, 0, 2);
+            this.tableLayoutPanel13.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel13.Controls.Add(this.textBox6, 1, 5);
+            this.tableLayoutPanel13.Controls.Add(this.label9, 0, 3);
+            this.tableLayoutPanel13.Controls.Add(this.label10, 0, 4);
+            this.tableLayoutPanel13.Controls.Add(this.label2, 2, 0);
+            this.tableLayoutPanel13.Controls.Add(this.label13, 0, 1);
+            this.tableLayoutPanel13.Controls.Add(this.label35, 2, 3);
+            this.tableLayoutPanel13.Controls.Add(this.label4, 2, 4);
+            this.tableLayoutPanel13.Controls.Add(this.label5, 0, 5);
+            this.tableLayoutPanel13.Controls.Add(this.label6, 2, 5);
+            this.tableLayoutPanel13.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel13.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel13.Name = "tableLayoutPanel13";
+            this.tableLayoutPanel13.RowCount = 6;
+            this.tableLayoutPanel13.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel13.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel13.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel13.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel13.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel13.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel13.Size = new System.Drawing.Size(1018, 197);
+            this.tableLayoutPanel13.TabIndex = 5;
+            // 
+            // textBox32
+            // 
+            this.textBox32.Dock = Wisej.Web.DockStyle.Fill;
+            this.textBox32.Location = new System.Drawing.Point(765, 163);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.Size = new System.Drawing.Size(250, 31);
+            this.textBox32.TabIndex = 41;
+            // 
+            // textBox31
+            // 
+            this.textBox31.Dock = Wisej.Web.DockStyle.Fill;
+            this.textBox31.Location = new System.Drawing.Point(765, 131);
+            this.textBox31.Name = "textBox31";
+            this.textBox31.Size = new System.Drawing.Size(250, 26);
+            this.textBox31.TabIndex = 40;
+            // 
+            // textBox30
+            // 
+            this.textBox30.Dock = Wisej.Web.DockStyle.Fill;
+            this.textBox30.Location = new System.Drawing.Point(765, 99);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.Size = new System.Drawing.Size(250, 26);
+            this.textBox30.TabIndex = 39;
+            // 
+            // textBox29
+            // 
+            this.textBox29.Dock = Wisej.Web.DockStyle.Fill;
+            this.textBox29.Location = new System.Drawing.Point(765, 67);
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(250, 26);
+            this.textBox29.TabIndex = 38;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Dock = Wisej.Web.DockStyle.Fill;
+            this.textBox14.Location = new System.Drawing.Point(765, 35);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(250, 26);
+            this.textBox14.TabIndex = 37;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Dock = Wisej.Web.DockStyle.Fill;
+            this.textBox13.Location = new System.Drawing.Point(765, 3);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(250, 26);
+            this.textBox13.TabIndex = 36;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Dock = Wisej.Web.DockStyle.Fill;
+            this.textBox5.Location = new System.Drawing.Point(257, 131);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(248, 26);
+            this.textBox5.TabIndex = 28;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Dock = Wisej.Web.DockStyle.Fill;
+            this.textBox4.Location = new System.Drawing.Point(257, 99);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(248, 26);
+            this.textBox4.TabIndex = 27;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Dock = Wisej.Web.DockStyle.Fill;
+            this.textBox3.Location = new System.Drawing.Point(257, 67);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(248, 26);
+            this.textBox3.TabIndex = 26;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Dock = Wisej.Web.DockStyle.Fill;
+            this.textBox2.Location = new System.Drawing.Point(257, 35);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(248, 26);
+            this.textBox2.TabIndex = 25;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Dock = Wisej.Web.DockStyle.Fill;
+            this.textBox1.Location = new System.Drawing.Point(257, 3);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(248, 26);
+            this.textBox1.TabIndex = 24;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Dock = Wisej.Web.DockStyle.Fill;
+            this.label31.Location = new System.Drawing.Point(511, 67);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(248, 26);
+            this.label31.TabIndex = 14;
+            this.label31.Text = "Location";
+            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Dock = Wisej.Web.DockStyle.Fill;
+            this.label14.Location = new System.Drawing.Point(511, 35);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(248, 26);
+            this.label14.TabIndex = 13;
+            this.label14.Text = "Date";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Dock = Wisej.Web.DockStyle.Fill;
+            this.label3.Location = new System.Drawing.Point(3, 67);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(248, 26);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Welding Standard";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Dock = Wisej.Web.DockStyle.Fill;
+            this.label1.Location = new System.Drawing.Point(3, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(248, 26);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "WPQR Number";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Dock = Wisej.Web.DockStyle.Fill;
+            this.textBox6.Location = new System.Drawing.Point(257, 163);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(248, 31);
+            this.textBox6.TabIndex = 29;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Dock = Wisej.Web.DockStyle.Fill;
+            this.label9.Location = new System.Drawing.Point(3, 99);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(248, 26);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "Material Standard";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Dock = Wisej.Web.DockStyle.Fill;
+            this.label10.Location = new System.Drawing.Point(3, 131);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(248, 26);
+            this.label10.TabIndex = 9;
+            this.label10.Text = "Material Grade";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Dock = Wisej.Web.DockStyle.Fill;
+            this.label2.Location = new System.Drawing.Point(511, 3);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(248, 26);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Job Number";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Dock = Wisej.Web.DockStyle.Fill;
+            this.label13.Location = new System.Drawing.Point(3, 35);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(248, 26);
+            this.label13.TabIndex = 12;
+            this.label13.Text = "Welder ID";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Dock = Wisej.Web.DockStyle.Fill;
+            this.label35.Location = new System.Drawing.Point(511, 99);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(248, 26);
+            this.label35.TabIndex = 18;
+            this.label35.Text = "Weld Map";
+            this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Dock = Wisej.Web.DockStyle.Fill;
+            this.label4.Location = new System.Drawing.Point(511, 131);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(248, 26);
+            this.label4.TabIndex = 48;
+            this.label4.Text = "Drawing Numbers";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Dock = Wisej.Web.DockStyle.Fill;
+            this.label5.Location = new System.Drawing.Point(3, 163);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(248, 31);
+            this.label5.TabIndex = 49;
+            this.label5.Text = "Quantity / Item Serial Numbers";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Dock = Wisej.Web.DockStyle.Fill;
+            this.label6.Location = new System.Drawing.Point(511, 163);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(248, 31);
+            this.label6.TabIndex = 50;
+            this.label6.Text = "Notes / Remarks";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // tableLayoutPanel8
+            // 
+            this.tableLayoutPanel8.BorderStyle = Wisej.Web.BorderStyle.Solid;
+            this.tableLayoutPanel8.ColumnCount = 1;
+            this.tableLayoutPanel8.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel8.Controls.Add(this.btnVisualHome, 0, 3);
+            this.tableLayoutPanel8.Controls.Add(this.button8, 0, 4);
+            this.tableLayoutPanel8.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(1033, 3);
+            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
+            this.tableLayoutPanel8.RowCount = 5;
+            this.tableLayoutPanel8.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel8.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel8.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel8.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel8.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel8.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Absolute, 20F));
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(109, 433);
+            this.tableLayoutPanel8.TabIndex = 3;
+            // 
+            // btnVisualHome
+            // 
+            this.btnVisualHome.Dock = Wisej.Web.DockStyle.Fill;
+            this.btnVisualHome.Location = new System.Drawing.Point(3, 261);
+            this.btnVisualHome.Name = "btnVisualHome";
+            this.btnVisualHome.Size = new System.Drawing.Size(101, 80);
+            this.btnVisualHome.TabIndex = 1;
+            this.btnVisualHome.Text = "Home";
+            this.btnVisualHome.Click += new System.EventHandler(this.btnVisualHome_Click);
+            // 
+            // button8
+            // 
+            this.button8.Dock = Wisej.Web.DockStyle.Fill;
+            this.button8.Location = new System.Drawing.Point(3, 347);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(101, 81);
+            this.button8.TabIndex = 0;
+            this.button8.Text = "Next";
+            // 
+            // tableLayoutPanel9
+            // 
+            this.tableLayoutPanel9.ColumnCount = 1;
+            this.tableLayoutPanel9.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel9.Controls.Add(this.label15, 0, 1);
+            this.tableLayoutPanel9.Controls.Add(this.label16, 0, 0);
+            this.tableLayoutPanel9.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(33, 18);
+            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
+            this.tableLayoutPanel9.RowCount = 2;
+            this.tableLayoutPanel9.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 65F));
+            this.tableLayoutPanel9.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 35F));
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(1145, 117);
+            this.tableLayoutPanel9.TabIndex = 0;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.FromName("@focusFrame");
+            this.label15.BorderStyle = Wisej.Web.BorderStyle.Solid;
+            this.label15.Dock = Wisej.Web.DockStyle.Fill;
+            this.label15.Location = new System.Drawing.Point(3, 79);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(1139, 35);
+            this.label15.TabIndex = 1;
+            this.label15.Text = "Notes";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.label16.BorderStyle = Wisej.Web.BorderStyle.Solid;
+            this.label16.Dock = Wisej.Web.DockStyle.Fill;
+            this.label16.Location = new System.Drawing.Point(3, 3);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(1139, 70);
+            this.label16.TabIndex = 0;
+            this.label16.Text = "Welding Test Datasheet Information";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tabWPQR
+            // 
+            this.tabWPQR.Controls.Add(this.tableLayoutPanel25);
+            this.tabWPQR.Location = new System.Drawing.Point(0, 35);
+            this.tabWPQR.Name = "tabWPQR";
+            this.tabWPQR.Size = new System.Drawing.Size(1212, 615);
+            this.tabWPQR.Text = "WPQR";
+            // 
+            // tableLayoutPanel25
+            // 
+            this.tableLayoutPanel25.ColumnCount = 3;
+            this.tableLayoutPanel25.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 2.5F));
+            this.tableLayoutPanel25.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 95F));
+            this.tableLayoutPanel25.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 2.5F));
+            this.tableLayoutPanel25.Controls.Add(this.tableLayoutPanel26, 1, 3);
+            this.tableLayoutPanel25.Controls.Add(this.tableLayoutPanel29, 1, 1);
+            this.tableLayoutPanel25.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel25.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel25.Name = "tableLayoutPanel25";
+            this.tableLayoutPanel25.RowCount = 5;
+            this.tableLayoutPanel25.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 2.5F));
+            this.tableLayoutPanel25.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel25.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 2.5F));
+            this.tableLayoutPanel25.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 72.5F));
+            this.tableLayoutPanel25.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 2.5F));
+            this.tableLayoutPanel25.Size = new System.Drawing.Size(1212, 615);
+            this.tableLayoutPanel25.TabIndex = 2;
+            // 
+            // tableLayoutPanel26
+            // 
+            this.tableLayoutPanel26.ColumnCount = 2;
+            this.tableLayoutPanel26.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 90F));
+            this.tableLayoutPanel26.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 10F));
+            this.tableLayoutPanel26.Controls.Add(this.tableLayoutPanel27, 0, 0);
+            this.tableLayoutPanel26.Controls.Add(this.tableLayoutPanel28, 1, 0);
+            this.tableLayoutPanel26.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel26.Location = new System.Drawing.Point(33, 156);
+            this.tableLayoutPanel26.Name = "tableLayoutPanel26";
+            this.tableLayoutPanel26.RowCount = 1;
+            this.tableLayoutPanel26.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel26.Size = new System.Drawing.Size(1145, 439);
+            this.tableLayoutPanel26.TabIndex = 1;
+            // 
+            // tableLayoutPanel27
+            // 
+            this.tableLayoutPanel27.ColumnCount = 4;
+            this.tableLayoutPanel27.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 25F));
+            this.tableLayoutPanel27.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 25F));
+            this.tableLayoutPanel27.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 25F));
+            this.tableLayoutPanel27.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 25F));
+            this.tableLayoutPanel27.Controls.Add(this.label79, 2, 11);
+            this.tableLayoutPanel27.Controls.Add(this.label80, 2, 10);
+            this.tableLayoutPanel27.Controls.Add(this.label81, 2, 9);
+            this.tableLayoutPanel27.Controls.Add(this.label82, 2, 8);
+            this.tableLayoutPanel27.Controls.Add(this.label84, 2, 6);
+            this.tableLayoutPanel27.Controls.Add(this.label85, 2, 5);
+            this.tableLayoutPanel27.Controls.Add(this.label86, 2, 4);
+            this.tableLayoutPanel27.Controls.Add(this.label87, 2, 3);
+            this.tableLayoutPanel27.Controls.Add(this.label88, 2, 2);
+            this.tableLayoutPanel27.Controls.Add(this.label89, 2, 1);
+            this.tableLayoutPanel27.Controls.Add(this.label90, 2, 0);
+            this.tableLayoutPanel27.Controls.Add(this.label91, 0, 11);
+            this.tableLayoutPanel27.Controls.Add(this.label92, 0, 10);
+            this.tableLayoutPanel27.Controls.Add(this.label93, 0, 9);
+            this.tableLayoutPanel27.Controls.Add(this.label94, 0, 8);
+            this.tableLayoutPanel27.Controls.Add(this.label96, 0, 6);
+            this.tableLayoutPanel27.Controls.Add(this.label97, 0, 5);
+            this.tableLayoutPanel27.Controls.Add(this.label98, 0, 4);
+            this.tableLayoutPanel27.Controls.Add(this.label99, 0, 3);
+            this.tableLayoutPanel27.Controls.Add(this.label100, 0, 2);
+            this.tableLayoutPanel27.Controls.Add(this.label101, 0, 1);
+            this.tableLayoutPanel27.Controls.Add(this.label102, 0, 0);
+            this.tableLayoutPanel27.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel27.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel27.Name = "tableLayoutPanel27";
+            this.tableLayoutPanel27.RowCount = 12;
+            this.tableLayoutPanel27.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 10F));
+            this.tableLayoutPanel27.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 10F));
+            this.tableLayoutPanel27.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 10F));
+            this.tableLayoutPanel27.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 10F));
+            this.tableLayoutPanel27.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 10F));
+            this.tableLayoutPanel27.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 10F));
+            this.tableLayoutPanel27.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 10F));
+            this.tableLayoutPanel27.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 10F));
+            this.tableLayoutPanel27.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 10F));
+            this.tableLayoutPanel27.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 10F));
+            this.tableLayoutPanel27.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 10F));
+            this.tableLayoutPanel27.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 10F));
+            this.tableLayoutPanel27.Size = new System.Drawing.Size(1024, 433);
+            this.tableLayoutPanel27.TabIndex = 4;
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.Dock = Wisej.Web.DockStyle.Fill;
+            this.label79.Location = new System.Drawing.Point(515, 399);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(250, 31);
+            this.label79.TabIndex = 23;
+            this.label79.Text = "Batch / Cast Number";
+            this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label80
+            // 
+            this.label80.AutoSize = true;
+            this.label80.Dock = Wisej.Web.DockStyle.Fill;
+            this.label80.Location = new System.Drawing.Point(515, 363);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(250, 30);
+            this.label80.TabIndex = 22;
+            this.label80.Text = "Classification";
+            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Dock = Wisej.Web.DockStyle.Fill;
+            this.label81.Location = new System.Drawing.Point(515, 327);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(250, 30);
+            this.label81.TabIndex = 21;
+            this.label81.Text = "Product Name";
+            this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Dock = Wisej.Web.DockStyle.Fill;
+            this.label82.Location = new System.Drawing.Point(515, 291);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(250, 30);
+            this.label82.TabIndex = 20;
+            this.label82.Text = "Manufacturer";
+            this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label84
+            // 
+            this.label84.AutoSize = true;
+            this.label84.Dock = Wisej.Web.DockStyle.Fill;
+            this.label84.Location = new System.Drawing.Point(515, 219);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(250, 30);
+            this.label84.TabIndex = 18;
+            this.label84.Text = "Notes";
+            this.label84.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Dock = Wisej.Web.DockStyle.Fill;
+            this.label85.Location = new System.Drawing.Point(515, 183);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(250, 30);
+            this.label85.TabIndex = 17;
+            this.label85.Text = "Included Angle (°)";
+            this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label86
+            // 
+            this.label86.AutoSize = true;
+            this.label86.Dock = Wisej.Web.DockStyle.Fill;
+            this.label86.Location = new System.Drawing.Point(515, 147);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(250, 30);
+            this.label86.TabIndex = 16;
+            this.label86.Text = "Root Gap (mm)";
+            this.label86.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label87
+            // 
+            this.label87.AutoSize = true;
+            this.label87.Dock = Wisej.Web.DockStyle.Fill;
+            this.label87.Location = new System.Drawing.Point(515, 111);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(250, 30);
+            this.label87.TabIndex = 15;
+            this.label87.Text = "Root Face (mm)";
+            this.label87.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label88
+            // 
+            this.label88.AutoSize = true;
+            this.label88.Dock = Wisej.Web.DockStyle.Fill;
+            this.label88.Location = new System.Drawing.Point(515, 75);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(250, 30);
+            this.label88.TabIndex = 14;
+            this.label88.Text = "Welding Process";
+            this.label88.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.Dock = Wisej.Web.DockStyle.Fill;
+            this.label89.Location = new System.Drawing.Point(515, 39);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(250, 30);
+            this.label89.TabIndex = 13;
+            this.label89.Text = "Date";
+            this.label89.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label90
+            // 
+            this.label90.AutoSize = true;
+            this.label90.Dock = Wisej.Web.DockStyle.Fill;
+            this.label90.Location = new System.Drawing.Point(515, 3);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(250, 30);
+            this.label90.TabIndex = 12;
+            this.label90.Text = "Prepared By ID";
+            this.label90.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Dock = Wisej.Web.DockStyle.Fill;
+            this.label91.Location = new System.Drawing.Point(3, 399);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(250, 31);
+            this.label91.TabIndex = 11;
+            this.label91.Text = "Platecast / Heat Number";
+            this.label91.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Dock = Wisej.Web.DockStyle.Fill;
+            this.label92.Location = new System.Drawing.Point(3, 363);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(250, 30);
+            this.label92.TabIndex = 10;
+            this.label92.Text = "Thickness (mm)";
+            this.label92.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Dock = Wisej.Web.DockStyle.Fill;
+            this.label93.Location = new System.Drawing.Point(3, 327);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(250, 30);
+            this.label93.TabIndex = 9;
+            this.label93.Text = "Material Grade";
+            this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Dock = Wisej.Web.DockStyle.Fill;
+            this.label94.Location = new System.Drawing.Point(3, 291);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(250, 30);
+            this.label94.TabIndex = 8;
+            this.label94.Text = "Material Standard";
+            this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Dock = Wisej.Web.DockStyle.Fill;
+            this.label96.Location = new System.Drawing.Point(3, 219);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(250, 30);
+            this.label96.TabIndex = 6;
+            this.label96.Text = "Preheat (°)";
+            this.label96.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Dock = Wisej.Web.DockStyle.Fill;
+            this.label97.Location = new System.Drawing.Point(3, 183);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(250, 30);
+            this.label97.TabIndex = 5;
+            this.label97.Text = "Welding Position";
+            this.label97.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Dock = Wisej.Web.DockStyle.Fill;
+            this.label98.Location = new System.Drawing.Point(3, 147);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(250, 30);
+            this.label98.TabIndex = 4;
+            this.label98.Text = "Joint Type";
+            this.label98.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Dock = Wisej.Web.DockStyle.Fill;
+            this.label99.Location = new System.Drawing.Point(3, 111);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(250, 30);
+            this.label99.TabIndex = 3;
+            this.label99.Text = "Joint Design";
+            this.label99.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label100
+            // 
+            this.label100.AutoSize = true;
+            this.label100.Dock = Wisej.Web.DockStyle.Fill;
+            this.label100.Location = new System.Drawing.Point(3, 75);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(250, 30);
+            this.label100.TabIndex = 2;
+            this.label100.Text = "Welding Standard";
+            this.label100.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label101
+            // 
+            this.label101.AutoSize = true;
+            this.label101.Dock = Wisej.Web.DockStyle.Fill;
+            this.label101.Location = new System.Drawing.Point(3, 39);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(250, 30);
+            this.label101.TabIndex = 1;
+            this.label101.Text = "Job Number";
+            this.label101.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label102
+            // 
+            this.label102.AutoSize = true;
+            this.label102.Dock = Wisej.Web.DockStyle.Fill;
+            this.label102.Location = new System.Drawing.Point(3, 3);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(250, 30);
+            this.label102.TabIndex = 0;
+            this.label102.Text = "WPQR Number";
+            this.label102.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // tableLayoutPanel28
+            // 
+            this.tableLayoutPanel28.BorderStyle = Wisej.Web.BorderStyle.Solid;
+            this.tableLayoutPanel28.ColumnCount = 1;
+            this.tableLayoutPanel28.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel28.Controls.Add(this.button56, 0, 3);
+            this.tableLayoutPanel28.Controls.Add(this.button57, 0, 4);
+            this.tableLayoutPanel28.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel28.Location = new System.Drawing.Point(1033, 3);
+            this.tableLayoutPanel28.Name = "tableLayoutPanel28";
+            this.tableLayoutPanel28.RowCount = 5;
+            this.tableLayoutPanel28.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel28.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel28.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel28.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel28.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 20F));
+            this.tableLayoutPanel28.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Absolute, 20F));
+            this.tableLayoutPanel28.Size = new System.Drawing.Size(109, 433);
+            this.tableLayoutPanel28.TabIndex = 3;
+            // 
+            // button56
+            // 
+            this.button56.Dock = Wisej.Web.DockStyle.Fill;
+            this.button56.Location = new System.Drawing.Point(3, 261);
+            this.button56.Name = "button56";
+            this.button56.Size = new System.Drawing.Size(101, 80);
+            this.button56.TabIndex = 1;
+            this.button56.Text = "Home";
+            // 
+            // button57
+            // 
+            this.button57.Dock = Wisej.Web.DockStyle.Fill;
+            this.button57.Location = new System.Drawing.Point(3, 347);
+            this.button57.Name = "button57";
+            this.button57.Size = new System.Drawing.Size(101, 81);
+            this.button57.TabIndex = 0;
+            this.button57.Text = "Next";
+            // 
+            // tableLayoutPanel29
+            // 
+            this.tableLayoutPanel29.ColumnCount = 1;
+            this.tableLayoutPanel29.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel29.Controls.Add(this.label103, 0, 1);
+            this.tableLayoutPanel29.Controls.Add(this.label104, 0, 0);
+            this.tableLayoutPanel29.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel29.Location = new System.Drawing.Point(33, 18);
+            this.tableLayoutPanel29.Name = "tableLayoutPanel29";
+            this.tableLayoutPanel29.RowCount = 2;
+            this.tableLayoutPanel29.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 65F));
+            this.tableLayoutPanel29.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 35F));
+            this.tableLayoutPanel29.Size = new System.Drawing.Size(1145, 117);
+            this.tableLayoutPanel29.TabIndex = 0;
+            // 
+            // label103
+            // 
+            this.label103.AutoSize = true;
+            this.label103.BackColor = System.Drawing.Color.FromName("@focusFrame");
+            this.label103.BorderStyle = Wisej.Web.BorderStyle.Solid;
+            this.label103.Dock = Wisej.Web.DockStyle.Fill;
+            this.label103.Location = new System.Drawing.Point(3, 79);
+            this.label103.Name = "label103";
+            this.label103.Size = new System.Drawing.Size(1139, 35);
+            this.label103.TabIndex = 1;
+            this.label103.Text = "Notes";
+            this.label103.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label104
+            // 
+            this.label104.AutoSize = true;
+            this.label104.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.label104.BorderStyle = Wisej.Web.BorderStyle.Solid;
+            this.label104.Dock = Wisej.Web.DockStyle.Fill;
+            this.label104.Location = new System.Drawing.Point(3, 3);
+            this.label104.Name = "label104";
+            this.label104.Size = new System.Drawing.Size(1139, 70);
+            this.label104.TabIndex = 0;
+            this.label104.Text = "Welding Test Datasheet Information";
+            this.label104.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tabPopup
+            // 
+            this.tabPopup.Controls.Add(this.tableLayoutPanel10);
+            this.tabPopup.Location = new System.Drawing.Point(0, 35);
+            this.tabPopup.Name = "tabPopup";
+            this.tabPopup.Size = new System.Drawing.Size(1212, 615);
+            this.tabPopup.Text = "Popup";
+            // 
+            // tableLayoutPanel10
+            // 
+            this.tableLayoutPanel10.ColumnCount = 5;
+            this.tableLayoutPanel10.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Absolute, 20F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Absolute, 250F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Absolute, 20F));
+            this.tableLayoutPanel10.Controls.Add(this.tableLayoutPanel11, 2, 2);
+            this.tableLayoutPanel10.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 5;
+            this.tableLayoutPanel10.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Absolute, 20F));
+            this.tableLayoutPanel10.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 40F));
+            this.tableLayoutPanel10.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Absolute, 160F));
+            this.tableLayoutPanel10.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 60F));
+            this.tableLayoutPanel10.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Absolute, 20F));
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(1212, 615);
+            this.tableLayoutPanel10.TabIndex = 0;
+            this.tableLayoutPanel10.TabStop = true;
+            // 
+            // tableLayoutPanel11
+            // 
+            this.tableLayoutPanel11.BorderStyle = Wisej.Web.BorderStyle.Solid;
+            this.tableLayoutPanel11.ColumnCount = 1;
+            this.tableLayoutPanel11.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel11.Controls.Add(this.lblPopup, 0, 0);
+            this.tableLayoutPanel11.Controls.Add(this.tableLayoutPanel12, 0, 1);
+            this.tableLayoutPanel11.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(484, 189);
+            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
+            this.tableLayoutPanel11.RowCount = 2;
+            this.tableLayoutPanel11.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 70F));
+            this.tableLayoutPanel11.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 30F));
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(244, 154);
+            this.tableLayoutPanel11.TabIndex = 0;
+            this.tableLayoutPanel11.TabStop = true;
+            // 
+            // lblPopup
+            // 
+            this.lblPopup.AutoSize = true;
+            this.lblPopup.Dock = Wisej.Web.DockStyle.Fill;
+            this.lblPopup.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblPopup.Location = new System.Drawing.Point(3, 3);
+            this.lblPopup.Name = "lblPopup";
+            this.lblPopup.Size = new System.Drawing.Size(236, 100);
+            this.lblPopup.TabIndex = 1;
+            this.lblPopup.Text = "Popup Text";
+            this.lblPopup.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel12
+            // 
+            this.tableLayoutPanel12.ColumnCount = 3;
+            this.tableLayoutPanel12.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Absolute, 70F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new Wisej.Web.ColumnStyle(Wisej.Web.SizeType.Absolute, 70F));
+            this.tableLayoutPanel12.Controls.Add(this.btnNo, 2, 0);
+            this.tableLayoutPanel12.Controls.Add(this.btnYes, 0, 0);
+            this.tableLayoutPanel12.Dock = Wisej.Web.DockStyle.Fill;
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(3, 109);
+            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
+            this.tableLayoutPanel12.RowCount = 1;
+            this.tableLayoutPanel12.RowStyles.Add(new Wisej.Web.RowStyle(Wisej.Web.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(236, 40);
+            this.tableLayoutPanel12.TabIndex = 0;
+            this.tableLayoutPanel12.TabStop = true;
+            // 
+            // btnNo
+            // 
+            this.btnNo.Dock = Wisej.Web.DockStyle.Fill;
+            this.btnNo.Location = new System.Drawing.Point(169, 3);
+            this.btnNo.Name = "btnNo";
+            this.btnNo.Size = new System.Drawing.Size(64, 34);
+            this.btnNo.TabIndex = 1;
+            this.btnNo.Text = "No";
+            // 
+            // btnYes
+            // 
+            this.btnYes.Dock = Wisej.Web.DockStyle.Fill;
+            this.btnYes.Location = new System.Drawing.Point(3, 3);
+            this.btnYes.Name = "btnYes";
+            this.btnYes.Size = new System.Drawing.Size(64, 34);
+            this.btnYes.TabIndex = 0;
+            this.btnYes.Text = "Yes";
+            // 
             // FlipBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -2927,39 +3465,50 @@ namespace LinkedList
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
+            this.tabDatasheetInfo.ResumeLayout(false);
+            this.tableLayoutPanel15.ResumeLayout(false);
+            this.tableLayoutPanel16.ResumeLayout(false);
+            this.tableLayoutPanel18.ResumeLayout(false);
+            this.tableLayoutPanel30.ResumeLayout(false);
+            this.tableLayoutPanel17.ResumeLayout(false);
+            this.tableLayoutPanel17.PerformLayout();
+            this.tableLayoutPanel19.ResumeLayout(false);
+            this.tableLayoutPanel19.PerformLayout();
+            this.tabDatasheetRun.ResumeLayout(false);
+            this.tableLayoutPanel20.ResumeLayout(false);
+            this.tableLayoutPanel21.ResumeLayout(false);
+            this.tableLayoutPanel23.ResumeLayout(false);
+            this.tableLayoutPanel31.ResumeLayout(false);
+            this.tableLayoutPanel22.ResumeLayout(false);
+            this.tableLayoutPanel22.PerformLayout();
+            this.tableLayoutPanel24.ResumeLayout(false);
+            this.tableLayoutPanel24.PerformLayout();
+            this.tabInspection.ResumeLayout(false);
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel6.ResumeLayout(false);
+            this.tableLayoutPanel7.ResumeLayout(false);
+            this.tableLayoutPanel32.ResumeLayout(false);
+            this.tableLayoutPanel32.PerformLayout();
+            this.tableLayoutPanel14.ResumeLayout(false);
+            this.tableLayoutPanel14.PerformLayout();
+            this.tableLayoutPanel13.ResumeLayout(false);
+            this.tableLayoutPanel13.PerformLayout();
+            this.tableLayoutPanel8.ResumeLayout(false);
+            this.tableLayoutPanel9.ResumeLayout(false);
+            this.tableLayoutPanel9.PerformLayout();
+            this.tabWPQR.ResumeLayout(false);
+            this.tableLayoutPanel25.ResumeLayout(false);
+            this.tableLayoutPanel26.ResumeLayout(false);
+            this.tableLayoutPanel27.ResumeLayout(false);
+            this.tableLayoutPanel27.PerformLayout();
+            this.tableLayoutPanel28.ResumeLayout(false);
+            this.tableLayoutPanel29.ResumeLayout(false);
+            this.tableLayoutPanel29.PerformLayout();
             this.tabPopup.ResumeLayout(false);
             this.tableLayoutPanel10.ResumeLayout(false);
             this.tableLayoutPanel11.ResumeLayout(false);
             this.tableLayoutPanel11.PerformLayout();
             this.tableLayoutPanel12.ResumeLayout(false);
-            this.tabDatasheetInfo.ResumeLayout(false);
-            this.tabInspection.ResumeLayout(false);
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.tableLayoutPanel6.ResumeLayout(false);
-            this.tableLayoutPanel8.ResumeLayout(false);
-            this.tableLayoutPanel9.ResumeLayout(false);
-            this.tableLayoutPanel9.PerformLayout();
-            this.tableLayoutPanel7.ResumeLayout(false);
-            this.tableLayoutPanel7.PerformLayout();
-            this.tableLayoutPanel13.ResumeLayout(false);
-            this.tableLayoutPanel13.PerformLayout();
-            this.tableLayoutPanel14.ResumeLayout(false);
-            this.tableLayoutPanel14.PerformLayout();
-            this.tabDatasheetRun.ResumeLayout(false);
-            this.tableLayoutPanel15.ResumeLayout(false);
-            this.tableLayoutPanel16.ResumeLayout(false);
-            this.tableLayoutPanel17.ResumeLayout(false);
-            this.tableLayoutPanel17.PerformLayout();
-            this.tableLayoutPanel18.ResumeLayout(false);
-            this.tableLayoutPanel19.ResumeLayout(false);
-            this.tableLayoutPanel19.PerformLayout();
-            this.tableLayoutPanel20.ResumeLayout(false);
-            this.tableLayoutPanel21.ResumeLayout(false);
-            this.tableLayoutPanel22.ResumeLayout(false);
-            this.tableLayoutPanel22.PerformLayout();
-            this.tableLayoutPanel23.ResumeLayout(false);
-            this.tableLayoutPanel24.ResumeLayout(false);
-            this.tableLayoutPanel24.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2984,7 +3533,7 @@ namespace LinkedList
         private Wisej.Web.Button button7;
         private Wisej.Web.Button button1;
         private Wisej.Web.Button btnWelderQualification;
-        private Wisej.Web.Button button3;
+        private Wisej.Web.Button btnCompleteVisual;
         private Wisej.Web.Button button4;
         private Wisej.Web.Button button5;
         private Wisej.Web.Button button6;
@@ -2992,7 +3541,7 @@ namespace LinkedList
         private Wisej.Web.TableLayoutPanel tableLayoutPanel5;
         private Wisej.Web.TableLayoutPanel tableLayoutPanel6;
         private Wisej.Web.TableLayoutPanel tableLayoutPanel8;
-        private Wisej.Web.Button button2;
+        private Wisej.Web.Button btnVisualHome;
         private Wisej.Web.Button button8;
         private Wisej.Web.TableLayoutPanel tableLayoutPanel9;
         private Wisej.Web.Label label15;
@@ -3034,7 +3583,6 @@ namespace LinkedList
         private Wisej.Web.Label label5;
         private Wisej.Web.Label label6;
         private Wisej.Web.Label label22;
-        private Wisej.Web.Label label7;
         private Wisej.Web.Label label36;
         private Wisej.Web.Label label30;
         private Wisej.Web.Label label24;
@@ -3138,9 +3686,6 @@ namespace LinkedList
         private Wisej.Web.Label label60;
         private Wisej.Web.TextBox textBox24;
         private Wisej.Web.TextBox textBox25;
-        private Wisej.Web.TableLayoutPanel tableLayoutPanel18;
-        private Wisej.Web.Button button51;
-        private Wisej.Web.Button button52;
         private Wisej.Web.TableLayoutPanel tableLayoutPanel19;
         private Wisej.Web.Label label61;
         private Wisej.Web.Label label62;
@@ -3176,13 +3721,52 @@ namespace LinkedList
         private Wisej.Web.Label label76;
         private Wisej.Web.TextBox textBox47;
         private Wisej.Web.TextBox textBox48;
-        private Wisej.Web.TableLayoutPanel tableLayoutPanel23;
-        private Wisej.Web.Button button53;
-        private Wisej.Web.Button button54;
-        private Wisej.Web.Button button55;
         private Wisej.Web.TableLayoutPanel tableLayoutPanel24;
         private Wisej.Web.Label label77;
         private Wisej.Web.Label label78;
+        private Wisej.Web.TabPage tabWPQR;
+        private Wisej.Web.TableLayoutPanel tableLayoutPanel25;
+        private Wisej.Web.TableLayoutPanel tableLayoutPanel26;
+        private Wisej.Web.TableLayoutPanel tableLayoutPanel27;
+        private Wisej.Web.Label label79;
+        private Wisej.Web.Label label80;
+        private Wisej.Web.Label label81;
+        private Wisej.Web.Label label82;
+        private Wisej.Web.Label label84;
+        private Wisej.Web.Label label85;
+        private Wisej.Web.Label label86;
+        private Wisej.Web.Label label87;
+        private Wisej.Web.Label label88;
+        private Wisej.Web.Label label89;
+        private Wisej.Web.Label label90;
+        private Wisej.Web.Label label91;
+        private Wisej.Web.Label label92;
+        private Wisej.Web.Label label93;
+        private Wisej.Web.Label label94;
+        private Wisej.Web.Label label96;
+        private Wisej.Web.Label label97;
+        private Wisej.Web.Label label98;
+        private Wisej.Web.Label label99;
+        private Wisej.Web.Label label100;
+        private Wisej.Web.Label label101;
+        private Wisej.Web.Label label102;
+        private Wisej.Web.TableLayoutPanel tableLayoutPanel28;
+        private Wisej.Web.Button button56;
+        private Wisej.Web.Button button57;
+        private Wisej.Web.TableLayoutPanel tableLayoutPanel29;
+        private Wisej.Web.Label label103;
+        private Wisej.Web.Label label104;
+        private Wisej.Web.TableLayoutPanel tableLayoutPanel18;
+        private Wisej.Web.TableLayoutPanel tableLayoutPanel30;
+        private Wisej.Web.Button btnInfoHome;
+        private Wisej.Web.Button btnInfoNext;
+        private Wisej.Web.TableLayoutPanel tableLayoutPanel23;
+        private Wisej.Web.TableLayoutPanel tableLayoutPanel31;
+        private Wisej.Web.Button button53;
+        private Wisej.Web.Button btnRunHome;
+        private Wisej.Web.Button button55;
+        private Wisej.Web.TableLayoutPanel tableLayoutPanel32;
+        private Wisej.Web.Label label7;
 
         #endregion
         // private Wisej.Web.ContextMenuStrip contextMenuStrip1;

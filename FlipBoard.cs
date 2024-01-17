@@ -63,7 +63,7 @@ namespace LinkedList
                         }
 
                         break;
-                    case BoardId.PopUp:
+                    case BoardId.Info:
                         break;
                 }
             }
@@ -72,8 +72,11 @@ namespace LinkedList
         public enum BoardId
         {
             Home = 0,
-            PopUp = 1,
-            Datasheet = 2
+            Info = 1,
+            Run = 2,
+            Visual = 3,
+            WPQR = 4,
+            Popup = 5
         }
 
         public FlipBoard()
@@ -93,11 +96,35 @@ namespace LinkedList
 
         private void btnWelderQualification_Click(object sender, EventArgs e)
         {
-            this.ShowBoard = BoardId.Datasheet;
+            this.ShowBoard = BoardId.Info;
             this.Refresh();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnCompleteVisual_Click(object sender, EventArgs e)
+        {
+            this.ShowBoard = BoardId.Visual;
+            this.Refresh();
+        }
+
+        private void btnInfoHome_Click(object sender, EventArgs e)
+        {
+            this.ShowBoard = BoardId.Home;
+            this.Refresh();
+        }
+
+        private void btnInfoNext_Click(object sender, EventArgs e)
+        {
+            this.ShowBoard = BoardId.Run;
+            this.Refresh();
+        }
+
+        private void btnRunHome_Click(object sender, EventArgs e)
+        {
+            this.ShowBoard = BoardId.Home;
+            this.Refresh();
+        }
+
+        private void btnVisualHome_Click(object sender, EventArgs e)
         {
             this.ShowBoard = BoardId.Home;
             this.Refresh();
