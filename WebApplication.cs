@@ -1,11 +1,12 @@
-﻿using System;
+﻿
+using System;
 using Wisej.Web;
 
 namespace WeldingManagement
 {
-	public partial class MyDesktop : Desktop
+	public partial class WebApplication : Page
 	{
-		public MyDesktop()
+		public WebApplication()
 		{
 			InitializeComponent();
 		}

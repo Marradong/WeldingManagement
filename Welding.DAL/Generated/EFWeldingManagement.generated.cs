@@ -204,7 +204,7 @@ namespace Welding.DAL
                      .IsRequired()
                      .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
          modelBuilder.Entity<global::Welding.DAL.Job>()
-                     .HasRequired(x => x.Visual_Inspection)
+                     .HasOptional(x => x.Visual_Inspection)
                      .WithMany(x => x.Jobs)
                      .Map(x => x.MapKey("Visual_InspectionId"));
 

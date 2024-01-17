@@ -57,17 +57,17 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyDesktop.cs">
+    <Compile Include="FlipBoard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MyDesktop.Designer.cs">
-      <DependentUpon>MyDesktop.cs</DependentUpon>
+    <Compile Include="FlipBoard.designer.cs">
+      <DependentUpon>FlipBoard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Window1.cs">
+    <Compile Include="WebApplication.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Window1.Designer.cs">
-      <DependentUpon>Window1.cs</DependentUpon>
+    <Compile Include="WebApplication.Designer.cs">
+      <DependentUpon>WebApplication.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,6 +76,15 @@
     <Folder Include="Themes\" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="EntityFramework">
+      <Version>6.4.4</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Web.WebView2">
+      <Version>1.0.2210.55</Version>
+    </PackageReference>
+    <PackageReference Include="Wisej-2-ChartJS">
+      <Version>2.5.38</Version>
+    </PackageReference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -83,6 +92,14 @@
     <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
     <PackageReference Include="Wisej-2" Version="2.5.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FlipBoard.resx">
+      <DependentUpon>FlipBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebApplication.resx">
+      <DependentUpon>WebApplication.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -29,51 +29,25 @@ namespace Welding.DAL
       partial void Init();
 
       /// <summary>
-      /// Default constructor. Protected due to required properties, but present because EF needs it.
+      /// Default constructor
       /// </summary>
-      protected Job()
+      public Job()
       {
          Datasheets = new System.Collections.Generic.HashSet<global::Welding.DAL.Datasheet>();
          WPS = new System.Collections.Generic.HashSet<global::Welding.DAL.WPS>();
 
          Init();
-      }
-
-      /// <summary>
-      /// Replaces default constructor, since it's protected. Caller assumes responsibility for setting all required values before saving.
-      /// </summary>
-      public static Job CreateJobUnsafe()
-      {
-         return new Job();
-      }
-
-      /// <summary>
-      /// Public constructor with required data
-      /// </summary>
-      /// <param name="visual_inspection"></param>
-      public Job(global::Welding.DAL.Visual_Inspection visual_inspection)
-      {
-         if (visual_inspection == null) throw new ArgumentNullException(nameof(visual_inspection));
-         this.Visual_Inspection = visual_inspection;
-         visual_inspection.Jobs.Add(this);
-
-         Datasheets = new System.Collections.Generic.HashSet<global::Welding.DAL.Datasheet>();
-         WPS = new System.Collections.Generic.HashSet<global::Welding.DAL.WPS>();
-         Init();
-      }
-
-      /// <summary>
-      /// Static create function (for use in LINQ queries, etc.)
-      /// </summary>
-      /// <param name="visual_inspection"></param>
-      public static Job Create(global::Welding.DAL.Visual_Inspection visual_inspection)
-      {
-         return new Job(visual_inspection);
       }
 
       /*************************************************************************
        * Properties
        *************************************************************************/
+
+      public string Client { get; set; }
+
+      public string ClientManager { get; set; }
+
+      public string Division { get; set; }
 
       /// <summary>
       /// Identity, Indexed, Required
@@ -84,15 +58,18 @@ namespace Welding.DAL
       [System.ComponentModel.Description("Unique identifier")]
       public long Id { get; set; }
 
+      public string ItemDescription { get; set; }
+
+      public string JobNo { get; set; }
+
+      public string PurchaseOrderNo { get; set; }
+
       /*************************************************************************
        * Navigation properties
        *************************************************************************/
 
       public virtual ICollection<global::Welding.DAL.Datasheet> Datasheets { get; private set; }
 
-      /// <summary>
-      /// Required
-      /// </summary>
       public virtual global::Welding.DAL.Visual_Inspection Visual_Inspection { get; set; }
 
       public virtual ICollection<global::Welding.DAL.WPS> WPS { get; private set; }

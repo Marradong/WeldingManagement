@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LinkedList;
+using System;
 using Wisej.Web;
 
 namespace WeldingManagement
@@ -10,11 +11,8 @@ namespace WeldingManagement
 		/// </summary>
 		static void Main()
 		{
-			Application.Desktop = new MyDesktop();
-
-			Window1 window = new Window1();
-			window.Show();
-		}
+            Application.MainPage = new WebApplication();
+        }
 
 		//
 		// You can use the entry method below

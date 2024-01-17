@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data;
+using Gupta.SQLBase.Data;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
+using System.Net.Sockets;
+
 
 namespace Welding.DAL
 {
@@ -222,10 +224,10 @@ namespace Welding.DAL
             }
         }
 
-        public JobDetail Get_JobInfo(EfToDo db, string JobNumber)
+        public Job Get_JobInfo(EFWeldingManagement db, string JobNumber)
         {
 
-            JobDetail QAWorxJob = db.JobDetails.Create();
+            Job QAWorxJob = db.Jobs.Create();
 
             //if (!CheckMsSqlServerAvailablity())
             //    return;
