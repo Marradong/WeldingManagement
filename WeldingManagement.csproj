@@ -110,6 +110,12 @@
       <DependentUpon>WebApplication.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Welding.DAL\Welding.DAL.csproj">
+      <Project>{c9d10d23-2a52-432e-86d0-e89347e7ab31}</Project>
+      <Name>Welding.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

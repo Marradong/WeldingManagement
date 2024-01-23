@@ -55,7 +55,7 @@
         <classShapeMoniker Id="c3f8dac0-f384-4d5e-9b10-eb7708a6f4e5" />
       </nodes>
     </bidirectionalConnector>
-    <bidirectionalConnector Id="bf16ea76-818a-4306-b5ac-f5c174a5ee1f" edgePoints="[(12.125 : 4.56503662109375); (8.375 : 4.56503662109375)]" fixedFrom="Algorithm" fixedTo="Algorithm" color="White" dashStyle="Solid" textColor="White">
+    <bidirectionalConnector Id="bf16ea76-818a-4306-b5ac-f5c174a5ee1f" edgePoints="[(12.125 : 4.56503662109375); (8.375 : 4.56503662109375)]" fixedFrom="NotFixed" fixedTo="NotFixed" color="White" dashStyle="Solid" textColor="White">
       <bidirectionalAssociationMoniker Id="7cce0ea9-8f7a-42bb-ae09-bc50ff02f3dc" />
       <relativeChildShapes />
       <nodes>
@@ -257,7 +257,7 @@
         <elementListCompartment Id="cc349f6b-e778-46ec-a333-a6c518250c24" absoluteBounds="10.14, 3.0594921874999996, 1.4700000000000002, 0.44169108072916696" name="SourcesCompartment" titleTextColor="Black" itemTextColor="White" />
       </nestedChildShapes>
     </classShape>
-    <bidirectionalConnector Id="d5d2a79e-b582-4bb3-b804-0e83bc33e806" edgePoints="[(10.125 : 2.47109939148093); (5.25 : 2.47109939148093)]" fixedFrom="Algorithm" fixedTo="Algorithm" color="White" dashStyle="Solid" textColor="White">
+    <bidirectionalConnector Id="d5d2a79e-b582-4bb3-b804-0e83bc33e806" edgePoints="[(10.125 : 2.47109939148093); (5.25 : 2.47109939148093)]" fixedFrom="NotFixed" fixedTo="NotFixed" color="White" dashStyle="Solid" textColor="White">
       <bidirectionalAssociationMoniker Id="bff3b4fc-281f-4bd8-87c8-52a5331a61ae" />
       <relativeChildShapes />
       <nodes>
@@ -273,7 +273,7 @@
         <classShapeMoniker Id="9072a428-d3a1-4e74-8db7-ef4bc99cee6c" />
       </nodes>
     </bidirectionalConnector>
-    <bidirectionalConnector Id="2c09472f-a3eb-4df5-a6d9-756326e94958" edgePoints="[(12.875 : 3.625); (12.875 : 2.759428289289); (11.625 : 2.759428289289)]" fixedFrom="Algorithm" fixedTo="Algorithm" color="113, 111, 110" dashStyle="Solid" textColor="White">
+    <bidirectionalConnector Id="2c09472f-a3eb-4df5-a6d9-756326e94958" edgePoints="[(12.875 : 3.625); (12.875 : 2.759428289289); (11.625 : 2.759428289289)]" fixedFrom="NotFixed" fixedTo="NotFixed" color="White" dashStyle="Solid" textColor="White">
       <bidirectionalAssociationMoniker Id="e5c0ec61-a9c5-459e-8784-790f250b345d" />
       <relativeChildShapes />
       <nodes>

@@ -35,7 +35,7 @@
             // 
             this.flipBoard1.Dock = Wisej.Web.DockStyle.Fill;
             this.flipBoard1.Name = "flipBoard1";
-            this.flipBoard1.Size = new System.Drawing.Size(1274, 717);
+            this.flipBoard1.Size = new System.Drawing.Size(1299, 837);
             this.flipBoard1.TabIndex = 0;
             // 
             // WebApplication
@@ -44,7 +44,7 @@
             this.AutoScaleMode = Wisej.Web.AutoScaleMode.Font;
             this.Controls.Add(this.flipBoard1);
             this.Name = "WebApplication";
-            this.Size = new System.Drawing.Size(1274, 717);
+            this.Size = new System.Drawing.Size(1299, 837);
             this.Text = "Form1";
             this.ResumeLayout(false);
 
